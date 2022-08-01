@@ -485,7 +485,7 @@ cl.prod_untangle_block,body,contains,This web page is blocked</b> because it vio
 cl.prod_untangle_forward,header.location,contains,web-filter/blockpage?,prod,10,,"https://forums.untangle.com/tips-tricks/40122-customise-untangle-block-messages-users.html,https://forums.untangle.com/web-monitor/29591-problems-web-filter.html",https://explorer.ooni.org/measurement/20200105T111900Z_AS60045_yvYmENVuUcOj3ihDAatweKpOZp8aFhloYnrM8XRr9xUgHafPhH?input=http://www.bglad.com/,Forward is typically a 307 to IP: http(s)://IP/web-filter/blockpage?nonce=,
 cl.prod_vasexperts_blockpage_2,body,contains,mc.yandex.ru/watch/21144079,prod,10,RU,"https://vasexperts.ru,https://vasexperts.ru/products/skat/",https://explorer.ooni.org/measurement/20180317T120401Z_AS58042_yJMJTpz2i5Qbl8JH3UfBICOMoLFILAZpNrZUxGWdDqvjKFluPF?input=http://bluesystem.ru/,"VAS Experts is a vendor of filtering gear such as SKAT DPI engine for blocking, and SORM devices for the Russian market. This matches the Metrika ID embedded on the blockpage.",
 cl.prod_vasexperts_forward,header.location,contains,vasexperts.ru,prod,10,RU,"https://vasexperts.ru,https://vasexperts.ru/products/skat/",https://explorer.ooni.org/measurement/20190618T124754Z_AS31261_OrJwUWO1xCLKQWLvmRjNuRB64rxBxnjln9jPQbRP5GL5WtNbAs?input=http://www.deti-404.com/,"VAS Experts is a vendor of filtering gear such as SKAT DPI engine for blocking, and SORM devices for the Russian market. This matches on their domain in the header. One configuration of SKAT is to 30x to URL: http://vasexperts.ru/test/blocked.php",
-cl.prod_wirefilter,header.location,contains,Protected by WireFilter,prod,10,"AE,SA",,https://explorer.ooni.org/measurement/20200214T180921Z_AS35819_INXiu6FqyTRS0cTO8wF5nLUHtCZZIw35rfGmsrSBnD7CeNDodJ?input=http://www.samesexmarriage.ca/,Saudi Product WireFilter commonly adds this to headers.,
+cl.prod_wirefilter,header.location,contains,Protected by WireFilter,prod,10,"SA,AE",,https://explorer.ooni.org/measurement/20200214T180921Z_AS35819_INXiu6FqyTRS0cTO8wF5nLUHtCZZIw35rfGmsrSBnD7CeNDodJ?input=http://www.samesexmarriage.ca/,Saudi Product WireFilter commonly adds this to headers.,
 cl.prod_zscaler_block,body,contains,Internet Security by Zscaler,prod,10,,https://www.zscaler.com/solutions/web-security,,"ZScaler Internet Security Filtering, matches blockpage title",
 cl.prod_zscaler_forward_1,header.location,contains,://gateway.zscaler.net,prod,10,,https://www.zscaler.com/solutions/web-security,https://explorer.ooni.org/measurement/20180122T201538Z_AS22616_uLviWLsbTKGig4oiZFlS9Xz7VeSaMX2G4Tggg9MU7yflA1WQDt?input=http://lgbt.foundation/,"ZScaler Internet Security Filtering, matches forward to cloud hosted block page at gateway.zscaler.net",
 cl.prod_zscaler_forward_2,header.location,contains,://gateway.zscalertwo.net,prod,10,,https://www.zscaler.com/solutions/web-security,https://explorer.ooni.org/measurement/20180309T161700Z_AS22616_Ezy0LpcYa4OKlZeXQlAFLnoK0TR9Ezj6tqXXN86cCiJvytE2rf?input=http://www.gayscape.com,"ZScaler Internet Security Filtering, matches forward to cloud hosted block page at gateway.zscalertwo.net",
@@ -1129,8 +1129,7 @@ cp.d_corp_gr_opi_redirect_302_satellite,body,contains," <a href=""https://opi.gr
 cp.d_corp_id_jiipe_satellite,body,contains,<title>Jiipe | Internet Positive</title>,,5,,censored planet,,,
 cp.d_corp_microsoft_1_satellite,body,contains,<h4>You have been redirected from a malicious site</h4>,,5,,censored planet,,,
 cp.d_corp_microsoft_2_satellite,body,contains,<h4>Please use our domain review process if you feel this site is legitimate or should be in another category.</h4>,,5,,censored planet,,,
-cp.d_corp_multacom_satellite,body,contains,"<title>Page Restricted</title>
-",,5,,censored planet,,,
+cp.d_corp_multacom_satellite,body,contains,"<title>Page Restricted</title>",,5,,censored planet,,,
 cp.d_corp_ru_skydns_satellite,body,contains," <base href=""fhttps://cdn-b.skydns.ru/static/"" target=""_blank"">",,5,,censored planet,,,
 cp.e_unk_do_sengkecloud_satellite,header.location,prefix,https://www.sengkedcloud.com/,,5,,censored planet,,,
 cp.e_unk_gr_redirect_302_satellite,header.location,prefix,http://nba.gov.cy/,,5,,censored planet,,,
@@ -1686,4 +1685,3 @@ cp.fp_satellite_fp_vhost_404,body,contains,<title>404 Vhost unknown.</title>,fp,
 cp.fp_satellite_fp_no_such_app,body,contains,<title>No such app</title>,fp,5,,censored planet,,,
 cp.fp_satellite_fp_dummy_uk,header.location,prefix,http://dummy.co.uk,fp,5,,censored planet,,,
 cp.fp_satellite_fp_nginx_amazon,body,contains,<title>Test Page for the Nginx HTTP Server on the Amazon Linux AMI</title>,fp,5,,censored planet,,,
-cp.d_corp_multacom_satellite,body,contains,"<title>Page Restricted</title>",,5,,censored planet,,,
