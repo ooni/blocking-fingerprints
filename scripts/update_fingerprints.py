@@ -9,7 +9,7 @@ import csv
 
 CP_FINGERPRINTS_CP = "https://raw.githubusercontent.com/censoredplanet/censoredplanet-analysis/master/pipeline/metadata/data/blockpage_signatures.json"
 CP_FALSE_POSITIVE_CP = "https://raw.githubusercontent.com/censoredplanet/censoredplanet-analysis/master/pipeline/metadata/data/false_positive_signatures.json"
-CL_DNS = "https://raw.githubusercontent.com/citizenlab/filtering-annotations/master/data/v1/dns.csv"
+CL_DNS = "https://raw.githubusercontent.com/citizenlab/filtering-annotations/841940d6fcee5a794aeddb02eee43a7775cfeda3/data/v1/dns.csv"
 CL_HTTP = "https://raw.githubusercontent.com/citizenlab/filtering-annotations/master/data/v1/http.csv"
 OO_FINGERPRINTS = "https://raw.githubusercontent.com/ooni/pipeline/master/af/fastpath/fastpath/utils.py"
 
@@ -146,10 +146,11 @@ def main():
                 found_fp.exp_url = fp.exp_url
             if found_fp.name != fp.name and fp.name not in found_fp.other_names:
                 found_fp.other_names.append(fp.name)
+                found_fp.other_names = sorted(found_fp.other_names)
             if found_fp.notes == "" and fp.notes != "":
                 found_fp.notes = fp.notes
             if fp.expected_countries:
-                found_fp.expected_countries = list(set(found_fp.expected_countries).union(set(fp.expected_countries)))
+                found_fp.expected_countries = sorted(list(set(found_fp.expected_countries).union(set(fp.expected_countries))))
             fingerprints[idx] = found_fp
         else:
             fingerprints.append(fp)
