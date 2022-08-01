@@ -117,6 +117,8 @@ def csv_row_to_fp(row):
         confidence_no_fp=int(row["confidence_no_fp"]),
         source=row["source"].split(","),
         scope=row["scope"],
+        exp_url=row["exp_url"],
+        notes=row["notes"],
         expected_countries=row["expected_countries"].split(","),
         other_names=row["other_names"].split(","),
     )
