@@ -128,12 +128,12 @@ def csv_row_to_fp(row):
 def load_existing_fps():
     fingerprints = []
     with open("fingerprints_http.csv", "r", encoding="utf-8") as in_file:
-        reader = csv.DictReader(in_file, escapechar="\\")
+        reader = csv.DictReader(in_file)
         for row in reader:
             fingerprints.append(csv_row_to_fp(row))
 
     with open("fingerprints_dns.csv", "r", encoding="utf-8") as in_file:
-        reader = csv.DictReader(in_file, escapechar="\\")
+        reader = csv.DictReader(in_file)
         for row in reader:
             fingerprints.append(csv_row_to_fp(row))
     return fingerprints
