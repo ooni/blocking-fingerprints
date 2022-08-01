@@ -132,3 +132,7 @@ cl.dns_prod_opendns_1,prod,,dns,full,146.112.61.106,10,,https://www.opendns.com/
 cl.dns_prod_opendns_2,prod,,dns,full,208.69.32.164,10,,https://www.opendns.com/cisco-opendns/,https://explorer.ooni.org/measurement/20191007T155258Z_AS20115_DS8uyNobQ0CH9o9fls70ftC1ItOJ7dK5OlMG3YBs7NYrIXQ2Ty?input=https://www.planetromeo.com/,Cisco OpenDNS a popular DNS filtering system. NOTE: there is probably a more sophisticated way to track these IE - CNAME used in the redir.
 cl.dns_prod_securely_1,prod,,dns,full,204.110.220.2,10,,https://www.securly.com/,,DNS filtering product for schools
 cl.dns_prod_securely_2,prod,,dns,full,52.52.63.90,10,,https://www.securly.com/,,DNS filtering product for schools
+ooni.id_internet_positif_remala_1,nat,,dns,full,101.255.1.226,10,ID,,https://explorer.ooni.org/measurement/20220724T195306Z_webconnectivity_ID_38511_n1_cIzflLexBWoU6ogC?input=https%3A%2F%2Fvimeo.com%2F,
+ooni.id_internet_positif_remala_2,nat,,dns,full,101.255.0.226,10,ID,,https://explorer.ooni.org/measurement/20220724T195306Z_webconnectivity_ID_38511_n1_cIzflLexBWoU6ogC?input=https%3A%2F%2Fvimeo.com%2F,
+ooni.id_kominfo_1,nat,,dns,full,139.255.196.196,10,ID,,,
+ooni.id_kominfo_2,nat,,dns,full,103.154.123.132,10,ID,,,
