@@ -155,8 +155,10 @@ def main():
                 found_fp.notes = fp.notes
             if fp.expected_countries:
                 found_fp.expected_countries = sorted(list(set(found_fp.expected_countries).union(set(fp.expected_countries))))
+            print(f"Found existing fp {found_fp} -- {fp}")
             fingerprints[idx] = found_fp
         else:
+            print(f"Adding new FP {fp}")
             fingerprints.append(fp)
 
     def load_cp_fingeprints(url: str, fp_prefix: str, scope=""):
@@ -303,9 +305,9 @@ def main():
             pattern_type=pattern_type,
             confidence_no_fp=row["confidence_no_fp"],
             exp_url=row["exp_url"],
-            source=ast.literal_eval(row["source"]),
+            source=sorted(ast.literal_eval(row["source"])),
             scope=row["scope"],
-            expected_countries=ast.literal_eval(row["expected_countries"]),
+            expected_countries=sorted(ast.literal_eval(row["expected_countries"])),
             notes=row["notes"],
         )
         if fp.location_found == "header":
@@ -324,9 +326,9 @@ def main():
             pattern_type="full",
             confidence_no_fp=row["confidence_no_fp"],
             exp_url=row["exp_url"],
-            source=ast.literal_eval(row["source"]),
+            source=sorted(ast.literal_eval(row["source"])),
             scope=row["scope"],
-            expected_countries=ast.literal_eval(row["expected_countries"]),
+            expected_countries=sorted(ast.literal_eval(row["expected_countries"])),
             notes=row["notes"],
         )
         maybe_add_fingerprint(fp)
