@@ -128,12 +128,12 @@ def csv_row_to_fp(row):
 def load_existing_fps():
     fingerprints = []
     with open("fingerprints_http.csv", "r") as in_file:
-        reader = csv.DictReader(in_file)
+        reader = csv.DictReader(in_file, escapechar="\\")
         for row in reader:
             fingerprints.append(csv_row_to_fp(row))
 
     with open("fingerprints_dns.csv", "r") as in_file:
-        reader = csv.DictReader(in_file)
+        reader = csv.DictReader(in_file, escapechar="\\")
         for row in reader:
             fingerprints.append(csv_row_to_fp(row))
     return fingerprints
@@ -342,7 +342,7 @@ def main():
             print(f"Duplicate fingeprint with ID {fp.name}")
         fingerprint_names.add(fp.name)
 
-    with open("fingerprints_http.csv", "w") as out_file:
+    with open("fingerprints_http.csv", "w", newline="", encoding="utf-8") as out_file:
         writer = csv.DictWriter(out_file, fieldnames=csv_header_fields, escapechar="\\")
         writer.writeheader()
         writer.writerows(
@@ -352,7 +352,7 @@ def main():
             )
         )
 
-    with open("fingerprints_dns.csv", "w") as out_file:
+    with open("fingerprints_dns.csv", "w", newline="", encoding="utf-8") as out_file:
         writer = csv.DictWriter(out_file, fieldnames=csv_header_fields, escapechar="\\")
         writer.writeheader()
         writer.writerows(
