@@ -9,7 +9,7 @@ import csv
 
 CP_FINGERPRINTS_CP = "https://raw.githubusercontent.com/censoredplanet/censoredplanet-analysis/master/pipeline/metadata/data/blockpage_signatures.json"
 CP_FALSE_POSITIVE_CP = "https://raw.githubusercontent.com/censoredplanet/censoredplanet-analysis/master/pipeline/metadata/data/false_positive_signatures.json"
-CL_DNS = "https://raw.githubusercontent.com/citizenlab/filtering-annotations/841940d6fcee5a794aeddb02eee43a7775cfeda3/data/v1/dns.csv"
+CL_DNS = "https://raw.githubusercontent.com/citizenlab/filtering-annotations/master/data/v1/dns.csv"
 CL_HTTP = "https://raw.githubusercontent.com/citizenlab/filtering-annotations/master/data/v1/http.csv"
 OO_FINGERPRINTS = "https://raw.githubusercontent.com/ooni/pipeline/master/af/fastpath/fastpath/utils.py"
 
