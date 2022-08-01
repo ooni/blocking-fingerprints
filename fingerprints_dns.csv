@@ -136,3 +136,5 @@ ooni.id_internet_positif_remala_1,nat,,dns,full,101.255.1.226,10,ID,,https://exp
 ooni.id_internet_positif_remala_2,nat,,dns,full,101.255.0.226,10,ID,,https://explorer.ooni.org/measurement/20220724T195306Z_webconnectivity_ID_38511_n1_cIzflLexBWoU6ogC?input=https%3A%2F%2Fvimeo.com%2F,
 ooni.id_kominfo_1,nat,,dns,full,139.255.196.196,10,ID,,,
 ooni.id_kominfo_2,nat,,dns,full,103.154.123.132,10,ID,,,
+ooni.ir_10dot10_ipv4_1,nat,,dns,full,10.10.34.36,10,IR,,https://explorer.ooni.org/measurement/20210701T022229Z_webconnectivity_IR_197207_n1_1gpWGw5V9YWvEa44?input=http%3A%2F%2Fwww.freeexpression.org%2F,
+ooni.ir_ipv6_1,nat,,dns,full,d0::11,10,IR,,https://explorer.ooni.org/measurement/20210715T094141Z_webconnectivity_IR_44244_n1_GFBhOu2puPdz4SSt?input=https%3A%2F%2Fwww.sbs.com.au%2Flanguage%2Fcoronavirus%3Fcid%3Dinfocus,
