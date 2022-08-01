@@ -1,0 +1,5 @@
+{"fingerprint":"c_isp_ru_generalbp5","pattern":"src=\"http://www\\.ferra\\.ru/images/416/416695\\.jpeg\""}
+{"fingerprint":"c_isp_ru_itnet_2","pattern":"http://block\\.itnet33\\.ru/info/forbiddens\\.php"}
+{"fingerprint":"e_unk_style_red","pattern":"<span style=.*color:red;.*>\\(æ¡æ"}
+{"fingerprint":"d_corp_multacom_satellite","pattern":"<title>Page Restricted</title>\r"}
+{"fingerprint":"x_us_command","pattern":"U\\.S\\..*Command"}
