@@ -33,16 +33,16 @@ ooni_scope_to_cl = {
 
 csv_header_fields = [
     "name",
+    "scope",
+    "other_names",
     "location_found",
     "pattern_type",
     "pattern",
-    "scope",
     "confidence_no_fp",
     "expected_countries",
     "source",
     "exp_url",
-    "notes",
-    "other_names"
+    "notes"
 ]
 
 @dataclass
