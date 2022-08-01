@@ -89,7 +89,7 @@ def cp_pattern_type(pattern : str, default_pattern : str) -> str:
     return default_pattern
 
 _regexp_escape_replacements = [
-    "(", ")", "[", "]", "{", "}", "?", "*", "+", "-", "|", "^", "$", "\\", ".", "#", " ", "\t", "\n", "\r", "\v", "\f",
+    "(", ")", "[", "]", "{", "}", "?", "*", "+", "-", "|", "^", "$", "\\", ".", "#", " ", "\t", "\n", "\r", "\v", "\f", "'"
 ]
 def unescape_regexp(regexp_str: str) -> str:
     r = regexp_str
@@ -179,7 +179,7 @@ def main():
             if pattern.startswith("http://") or pattern.startswith("https://"):
                 maybe_add_fingerprint(
                     Fingerprint(
-                        name=fp_name,
+                        name=fp_name + "_body",
                         source=["censored planet"],
                         location_found="body",
                         pattern=pattern,
@@ -189,7 +189,7 @@ def main():
                 )
                 maybe_add_fingerprint(
                     Fingerprint(
-                        name=fp_name,
+                        name=fp_name + "_location",
                         source=["censored planet"],
                         location_found="header.location",
                         pattern=pattern,
@@ -335,6 +335,12 @@ def main():
     load_cp_fingeprints(url=CP_FINGERPRINTS_CP, fp_prefix="cp.")
     print(f"Fetching CP false positicve fingerprints from {CP_FALSE_POSITIVE_CP}")
     load_cp_fingeprints(url=CP_FALSE_POSITIVE_CP, fp_prefix="cp.fp_", scope="fp")
+
+    fingerprint_names = set()
+    for fp in fingerprints:
+        if fp.name in fingerprint_names:
+            print(f"Duplicate fingeprint with ID {fp.name}")
+        fingerprint_names.add(fp.name)
 
     with open("fingerprints_http.csv", "w") as out_file:
         writer = csv.DictWriter(out_file, fieldnames=csv_header_fields, escapechar="\\")
