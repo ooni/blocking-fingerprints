@@ -88,10 +88,12 @@ def cp_pattern_type(pattern : str, default_pattern : str) -> str:
         return "regexp"
     return default_pattern
 
-_special_chars_map = [chr(i) for i in b'()[]{}?*+-|^$\\.# \t\n\r\v\f']
+_regexp_escape_replacements = [
+    "(", ")", "[", "]", "{", "}", "?", "*", "+", "-", "|", "^", "$", "\\", ".", "#", " ", "\t", "\n", "\r", "\v", "\f",
+]
 def unescape_regexp(regexp_str: str) -> str:
     r = regexp_str
-    for c in _special_chars_map:
+    for c in _regexp_escape_replacements:
         r = r.replace("\\" + c, c)
     return r
 
@@ -335,7 +337,7 @@ def main():
     load_cp_fingeprints(url=CP_FALSE_POSITIVE_CP, fp_prefix="cp.fp_", scope="fp")
 
     with open("fingerprints_http.csv", "w") as out_file:
-        writer = csv.DictWriter(out_file, fieldnames=csv_header_fields)
+        writer = csv.DictWriter(out_file, fieldnames=csv_header_fields, escapechar="\\")
         writer.writeheader()
         writer.writerows(
             map(
@@ -345,7 +347,7 @@ def main():
         )
 
     with open("fingerprints_dns.csv", "w") as out_file:
-        writer = csv.DictWriter(out_file, fieldnames=csv_header_fields)
+        writer = csv.DictWriter(out_file, fieldnames=csv_header_fields, escapechar="\\")
         writer.writeheader()
         writer.writerows(
             map(
