@@ -89,7 +89,7 @@ def cp_pattern_type(pattern : str, default_pattern : str) -> str:
     return default_pattern
 
 _regexp_escape_replacements = [
-    "(", ")", "[", "]", "{", "}", "?", "*", "+", "-", "|", "^", "$", "\\", ".", "#", " ", "\t", "\n", "\r", "\v", "\f", "'"
+    "(", ")", "[", "]", "{", "}", "?", "*", "+", "-", "|", "^", "$", "\\", ".", "#", " ", "\t", "\n", "\r", "\v", "\f", "'", '"'
 ]
 def unescape_regexp(regexp_str: str) -> str:
     r = regexp_str
@@ -127,12 +127,12 @@ def csv_row_to_fp(row):
 
 def load_existing_fps():
     fingerprints = []
-    with open("fingerprints_http.csv", "r") as in_file:
+    with open("fingerprints_http.csv", "r", encoding="utf-8") as in_file:
         reader = csv.DictReader(in_file, escapechar="\\")
         for row in reader:
             fingerprints.append(csv_row_to_fp(row))
 
-    with open("fingerprints_dns.csv", "r") as in_file:
+    with open("fingerprints_dns.csv", "r", encoding="utf-8") as in_file:
         reader = csv.DictReader(in_file, escapechar="\\")
         for row in reader:
             fingerprints.append(csv_row_to_fp(row))
@@ -343,7 +343,7 @@ def main():
         fingerprint_names.add(fp.name)
 
     with open("fingerprints_http.csv", "w", newline="", encoding="utf-8") as out_file:
-        writer = csv.DictWriter(out_file, fieldnames=csv_header_fields, escapechar="\\")
+        writer = csv.DictWriter(out_file, fieldnames=csv_header_fields)
         writer.writeheader()
         writer.writerows(
             map(
@@ -353,7 +353,7 @@ def main():
         )
 
     with open("fingerprints_dns.csv", "w", newline="", encoding="utf-8") as out_file:
-        writer = csv.DictWriter(out_file, fieldnames=csv_header_fields, escapechar="\\")
+        writer = csv.DictWriter(out_file, fieldnames=csv_header_fields)
         writer.writeheader()
         writer.writerows(
             map(
