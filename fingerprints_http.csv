@@ -5,9 +5,9 @@ ooni.ae_2,header.location,prefix,http://lighthouse.du.ae,isp,5,AE,ooni,,,
 ooni.ae_3,body,contains,it-security-operations@etisalat.ae,isp,5,AE,ooni,https://explorer.ooni.org/measurement/20190708T075453Z_AS5384_VXPZQorUMS5VJxSy4BWbzITW3GGfQOWX9APTD9wBEJDCCDU4s5?input=http://gaytoday.com/,Blockpage text seen in the Etisalat corporate blockpage which is a customized Websense,cl.inst_corp_etisalat
 ooni.af_0,body,contains,"content=""Access Denied - Afghan Wireless Communication Company",isp,5,AF,ooni,,,
 ooni.ar_0,body,contains,<title>Notificación: política: filtrado de URL</title>,isp,5,AR,ooni,,,
-ooni.au_0,body,contains,<title>Notification: Policy: URL Filtering</title>,inst,5,"DE,FR,DK,AU",ooni,,,"ooni.de_0,ooni.dk_1,ooni.fr_1"
+ooni.au_0,body,contains,<title>Notification: Policy: URL Filtering</title>,inst,5,"AU,DE,DK,FR",ooni,,,"ooni.de_0,ooni.dk_1,ooni.fr_1"
 ooni.au_1,header.location,prefix,https://go.telstra.com.au/broadbandprotect/networkprotectionstandard,isp,5,AU,ooni,,,
-ooni.au_2,body,contains,Blocked by ContentKeeper,isp,5,"IL,AU",ooni,https://explorer.ooni.org/measurement/20190727T072541Z_AS132909_MpSZSKk7KLUGwYzXlP6Q1BTllFuPXmFxAZjvUyZrOYjJa6RlVD?input=http://gaytoday.com/,Blocking service used in schools,cl.prod_contentkeeper
+ooni.au_2,body,contains,Blocked by ContentKeeper,isp,5,"AU,IL",ooni,https://explorer.ooni.org/measurement/20190727T072541Z_AS132909_MpSZSKk7KLUGwYzXlP6Q1BTllFuPXmFxAZjvUyZrOYjJa6RlVD?input=http://gaytoday.com/,Blocking service used in schools,cl.prod_contentkeeper
 ooni.be_0,body,contains,that is considered illegal according to Belgian legislation,nat,5,BE,ooni,,,
 ooni.be_1,header.via,full,1.1 webfilter.stjohns.net (http_scan_byf/3.5.16),inst,5,BE,ooni,,,
 ooni.br_0,header.via,full,1.1 wsa07.grupoamil.com.br:80 (Cisco-WSA/9.1.2-010),inst,5,BR,ooni,,,
@@ -32,8 +32,8 @@ ooni.de_3,header.location,prefix,https://hotspot.vodafone.de/access_denied.html,
 ooni.dk_0,body,contains,lagt at blokere for adgang til siden.,nat,5,DK,ooni,,,
 ooni.eg_0,header.location,prefix,http://notification.etisalat.com.eg/etisalat/notification/redirectionactions.html?,isp,5,EG,ooni,,,
 ooni.es_0,body,contains,<title>Dominio-No-Disponible</title>,vbw,5,ES,ooni,,,
-ooni.es_1,header.server,full,V2R2C00-IAE/1.0,inst,5,"MX,ES,PK,IT",ooni,,,"ooni.it_1,ooni.mx_0,ooni.pk_0"
-ooni.fr_0,body,contains,"xtpage = ""page-blocage-terrorisme""",nat,5,"GF,FR",ooni,,,ooni.gf_0
+ooni.es_1,header.server,full,V2R2C00-IAE/1.0,inst,5,"ES,IT,MX,PK",ooni,,,"ooni.it_1,ooni.mx_0,ooni.pk_0"
+ooni.fr_0,body,contains,"xtpage = ""page-blocage-terrorisme""",nat,5,"FR,GF",ooni,,,ooni.gf_0
 ooni.fr_2,header.server,prefix,Olfeo,inst,5,FR,ooni,https://explorer.ooni.org/measurement/20181013T160011Z_AS3215_IRIYlWDvBY8FTKrWmI3C6GrvGXVEeHwibS9J9AeorEPZbKp62j?input=http://gaytoday.com,French Web Filtering/Secure Gateway product makes itself generally known in headers,cl.prod_olfeo
 ooni.gb_0,header.location,prefix,http://assets.o2.co.uk/18plusaccess/,isp,5,GB,ooni,,,
 ooni.gb_1,header.location,prefix,http://www.vodafone.co.uk/restricted-content,isp,5,GB,ooni,,,
@@ -48,7 +48,7 @@ ooni.gb_9,header.location,full,www.vodafone.co.uk/contentcontrolpage/vfb-categor
 ooni.gb_10,header.location,full,http://three.co.uk/mobilebroadband_restricted,isp,5,GB,ooni,,,
 ooni.gb_11,body,contains,"<a href=""https://smobile.three.co.uk/837/"">Age Validation</a>",isp,5,GB,ooni,,,
 ooni.gr_0,body,contains,www.gamingcommission.gov.gr/index.php/forbidden-access-black-list/,nat,5,GR,ooni,,,
-ooni.gr_1,header.location,prefix,http://1.2.3.50/ups/no_access,isp,5,"ZZ,GR",ooni,,,ooni.zz_0
+ooni.gr_1,header.location,prefix,http://1.2.3.50/ups/no_access,isp,5,"GR,ZZ",ooni,,,ooni.zz_0
 ooni.hu_0,body,contains,<title>Oops! Website blocked!</title>,inst,5,HU,ooni,,,
 ooni.hu_1,body,contains,<title>Web Page Blocked</title>,inst,5,HU,ooni,,,cp.f_gen_web_blocked
 ooni.id_0,header.location,prefix,http://internet-positif.org,nat,5,ID,ooni,,,
@@ -1686,4 +1686,8 @@ cp.fp_satellite_fp_vhost_404,body,contains,<title>404 Vhost unknown.</title>,fp,
 cp.fp_satellite_fp_no_such_app,body,contains,<title>No such app</title>,fp,5,,censored planet,,,
 cp.fp_satellite_fp_dummy_uk,header.location,prefix,http://dummy.co.uk,fp,5,,censored planet,,,
 cp.fp_satellite_fp_nginx_amazon,body,contains,<title>Test Page for the Nginx HTTP Server on the Amazon Linux AMI</title>,fp,5,,censored planet,,,
+cp.d_corp_multacom_satellite,body,contains,"<title>Page Restricted</title>
+",,5,,censored planet,,,
+cp.d_corp_multacom_satellite,body,contains,"<title>Page Restricted</title>
+",,5,,censored planet,,,
 cp.d_corp_multacom_satellite,body,contains,"<title>Page Restricted</title>",,5,,censored planet,,,
