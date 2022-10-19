@@ -1690,7 +1690,6 @@ ooni.id_bold_4g_o,isp,,body,contains,"Apabila Anda merasa situs yang dikunjungi 
 ooni.id_first_0,isp,,body,contains,<title>FastNet | Internet Sehat dan Aman</title>,10,ID,https://github.com/citizenlab/blockpages/blob/master/html/id-first.html,,
 ooni.id_indosat_0,isp,,body,contains,negatif sesuai dengan Peraturan Menteri Kominfo No 19 Tahun 2014,10,ID,https://github.com/citizenlab/blockpages/blob/master/html/id-indosat-2-Oct2014-update.htm,,
 ooni.id_indosat_1,isp,,body,contains,<b>Access Restricted by</b>,5,ID,https://github.com/citizenlab/blockpages/blob/master/html/id-indosat.html,,
-ooni.id_jalawave_0,isp,,body,contains,tidak bisa diakses melalui jaringan ini sesuai peraturan perundang-undangan,5,ID,https://github.com/citizenlab/blockpages/blob/master/html/id-jalawave.html,,
 ooni.id_telekomunikasi_0,isp,,body,contains,<title>Internet Positif - Indonesia</title>,10,ID,https://github.com/citizenlab/blockpages/blob/master/html/id-telkomunikasi.html,,
 ooni.id_xl_0,isp,,body,contains,<p>which is not permitted by goverment regulation.</p>,5,ID,https://github.com/citizenlab/blockpages/blob/master/html/id-xl-netsweeper.html,,
 ooni.id_xl_1,isp,,body,contains,<TITLE>ERROR BLOCKED</TITLE>,5,ID,https://github.com/citizenlab/blockpages/blob/master/html/id-xl.html,,
