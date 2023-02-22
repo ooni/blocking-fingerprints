@@ -149,3 +149,43 @@ ooni.id_dns_106,isp,,dns,full,202.3.219.209,5,ID,,,
 ooni.id_dns_107,isp,,dns,full,202.62.29.1,5,ID,,,
 ooni.id_dns_108,isp,,dns,full,202.73.99.3,5,ID,,,
 ooni.id_dns_109,isp,,dns,full,210.210.178.70,5,ID,,,
+ooni.ph_dns_1,nat,,dns,full,121.1.49.100,10,PH,sinarproject,https://explorer.ooni.org/measurement/20230218T042846Z_webconnectivity_PH_9299_n1_MKo1q80sAIGFFfR7?input=http%3A%2F%2Fwww.pokerstars.com%2F,blockpage_govt
+ooni.kh_dns_1,isp,,dns,full,36.37.242.94,5,KH,sinarproject,https://explorer.ooni.org/measurement/20220627T172033Z_webconnectivity_KH_38623_n1_PYiDXHsAx3AtHfka?input=https%3A%2F%2Fkhmer.cambodiadaily.com%2F,
+ooni.kh_dns_2,prod,,dns,full,10.10.10.1,5,KH,sinarproject,https://explorer.ooni.org/measurement/20220315T162446Z_webconnectivity_KH_131207_n1_rtPecbHL7V3DUovP?input=https%3A%2F%2Fwww.casino.com%2F ,"Looking at the TLS certificate the issuer is ""'CN=pfSense-pfBNG-DNSBL-61f34917998c4,O=pfBlockerNG DNSBL Self-Signed Certificate'"", which might suggest it's not a nation-wide block, but it could also be."
+ooni.mm_5,isp,,dns,full,172.31.31.2,5,MM,sinarproject,https://explorer.ooni.org/measurement/20220113T031547Z_webconnectivity_MM_138168_n1_RFTC4h4412ls92fy?input=http%3A%2F%2Fmmtimespecialnews.com%2F ,"No blockpage, suspected as it directs to a private IP address"
+ooni.mm_6,nat,,dns,full,103.105.174.6,10,MM,sinarproject,,blockpage_govt
+ooni.mm_7,prod,,dns,full,176.103.130.135,10,MM,sinarproject,,AdGuard parental restrictions
+ooni.id_dns_110,nat,,dns,full,103.88.170.170,10,ID,sinarproject,,blockpage_govt
+ooni.id_dns_111,isp,,dns,full,36.86.63.182,5,ID,sinarproject,https://explorer.ooni.org/measurement/20220408T222848Z_webconnectivity_ID_7713_n1_l7BLGtH8ZJTfNmWR?input=https%3A%2F%2Fdailystormer.name%2F,"timed out, local ISP"
+ooni.id_dns_112,vbw,,dns,full,10.10.30.76,5,ID,sinarproject,https://explorer.ooni.org/measurement/20220408T045343Z_webconnectivity_ID_38511_n1_QNyV4T7Lsu32TTyt?input=http%3A%2F%2Fwww.4chan.org%2F,"timed out, private IP"
+ooni.id_dns_113,nat,,dns,full,27.54.116.70,10,ID,sinarproject,,blockpage_govt
+ooni.id_dns_114,nat,,dns,full,103.94.168.168,10,ID,sinarproject,,blockpage_govt
+ooni.id_dns_115,nat,,dns,full,115.178.182.58,10,ID,sinarproject,,blockpage_govt
+ooni.id_dns_116,nat,,dns,full,202.62.8.233,10,ID,sinarproject,,blockpage_govt
+ooni.id_dns_117,nat,,dns,full,202.3.218.137,10,ID,sinarproject,,blockpage_govt
+ooni.id_dns_118,isp,,dns,full,202.62.8.232,5,ID,sinarproject,https://explorer.ooni.org/measurement/20220504T050656Z_webconnectivity_ID_9341_n1_1QSMXBH5qooTV19z?input=https%3A%2F%2Fwww.reddit.com%2Fr%2Findonesia%2F,"timed out, local ISP"
+ooni.id_dns_119,nat,,dns,full,119.18.152.218,10,ID,sinarproject,,blockpage_govt
+ooni.id_dns_120,nat,,dns,full,110.50.83.31,10,ID,sinarproject,,blockpage_govt
+ooni.id_dns_121,nat,,dns,full,103.170.115.114,10,ID,sinarproject,,blockpage_govt
+ooni.id_dns_122,nat,,dns,full,202.137.1.74,10,ID,sinarproject,,blockpage_govt
+ooni.id_dns_123,isp,,dns,full,202.162.209.133,10,ID,sinarproject,https://explorer.ooni.org/measurement/20220513T034648Z_webconnectivity_ID_9341_n1_o0OLMYkHV433VHto?input=https%3A%2F%2Fwww.freespeechcoalition.com%2F,"timed out, local ISP"
+ooni.id_dns_124,nat,,dns,full,75.2.41.216,10,ID,sinarproject,,blockpage_govt
+ooni.id_dns_125,nat,,dns,full,99.83.188.13,10,ID,sinarproject,,blockpage_govt
+ooni.in_dns_1,nat,,dns,full,103.59.214.106,10,IN,sinarproject,,blockpage_govt
+ooni.in_dns_2,nat,,dns,full,49.205.171.201,10,IN,sinarproject,https://explorer.ooni.org/measurement/20220418T073116Z_webconnectivity_IN_18209_n1_oxSDb3HkQkXMwSMi?input=https%3A%2F%2Fwww.xnxx.com%2F,blockpage_govt
+ooni.in_dns_3,nat,,dns,full,202.83.21.14,10,IN,sinarproject,https://explorer.ooni.org/measurement/20220521T113050Z_webconnectivity_IN_131269_n1_Pv0UoubIMBLmdl8L?input=https%3A%2F%2Fwww.wechat.com%2F,blockpage_govt
+ooni.in_dns_4,nat,,dns,full,49.207.46.62,10,IN,sinarproject,https://explorer.ooni.org/measurement/20220627T010435Z_webconnectivity_IN_18209_n1_tLROFT2RmqWhLxdM?input=http%3A%2F%2Fbdcburma.wordpress.com%2F2012%2F07%2F27%2Fphotos-about-burmese-buddhists-killed-the-muslims-in-burma-2%2F,blockpage shown in OONI measurement
+ooni.in_dns_5,nat,,dns,full,103.206.163.150,10,IN,sinarproject,https://explorer.ooni.org/measurement/20220530T185416Z_webconnectivity_IN_135031_n1_dGgyfkCKF6Po0KQ3?input=http%3A%2F%2Fmicous.com%2F,blockpage shown in OONI measurement
+ooni.in_dns_6,isp,,dns,full,49.44.79.236,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220526T221323Z_webconnectivity_IN_55836_n1_iKD1mhrh8oqG9J7U?input=https%3A%2F%2Fwww.bigo.tv%2F,"timed out, local ISP"
+ooni.in_dns_7,isp,,dns,full,59.185.3.14,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220627T211811Z_webconnectivity_IN_17813_n1_sGAcsBScFgAhfeB5?input=http%3A%2F%2Finfluence.in%2F,"timed out, local ISP"
+ooni.in_dns_8,isp,,dns,full,202.83.21.15,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220114T023036Z_webconnectivity_IN_24309_n1_AHs2ako5D4Xu9w8N?input=https%3A%2F%2Fwww.weiyun.com%2F,"timed out, local ISP"
+ooni.in_dns_9,isp,,dns,full,202.83.24.75,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220216T151340Z_webconnectivity_IN_24309_n1_I3wQRGFxx6yRqvWA?input=https%3A%2F%2Ffunscrape.com%2F,"timed out, local ISP"
+ooni.in_dns_10,isp,,dns,full,218.248.112.60,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220606T113115Z_webconnectivity_IN_9829_n1_pkWnR4H5UrDGkcFo?input=http%3A%2F%2Fwww.parallel-app.com%2F,"timed out, local ISP"
+ooni.in_dns_11,vbw,,dns,full,10.40.124.12,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220417T011800Z_webconnectivity_IN_55824_n1_p2b2sLBjFMEjdfIn?input=https%3A%2F%2Findiansexstories.net%2F,"timed out, private IP"
+ooni.in_dns_12,vbw,,dns,full,10.40.124.13,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220418T041741Z_webconnectivity_IN_55824_n1_73HY9sL4HmAndyB9?input=https%3A%2F%2Feztv.re%2F,"timed out, private IP"
+ooni.in_dns_13,vbw,,dns,full,10.197.186.13,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220418T041741Z_webconnectivity_IN_55824_n1_73HY9sL4HmAndyB9?input=https%3A%2F%2Feztv.re%2F,"timed out, private IP"
+ooni.in_dns_14,vbw,,dns,full,10.197.187.13,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220418T041741Z_webconnectivity_IN_55824_n1_73HY9sL4HmAndyB9?input=https%3A%2F%2Feztv.re%2F,"timed out, private IP"
+ooni.in_dns_15,vbw,,dns,full,172.16.16.250,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220306T125418Z_webconnectivity_IN_17465_n1_tST2pngG5oTX7DYJ?input=https%3A%2F%2Fweibo.com%2F,"timed out, private IP"
+ooni.th_10,isp,,dns,full,180.180.255.130,5,TH,sinarproject,https://explorer.ooni.org/measurement/20220126T103641Z_webconnectivity_TH_23969_n1_F58VT6pOoqU5ydfA?input=https%3A%2F%2Fwww.hidemyass.com%2F,"timed out, local ISP"
+ooni.vn_dns_1,isp,,dns,full,125.212.224.108,5,VN,sinarproject,https://explorer.ooni.org/measurement/20220131T161257Z_webconnectivity_VN_45899_n1_DvlRl6bSZrs40gzu?input=http://www.888casino.com/,"timed out, local ISP"
+ooni.vn_dns_2,nat,,dns,full,103.192.236.94,10,VN,sinarproject,https://explorer.ooni.org/measurement/20220305T052542Z_webconnectivity_VN_45899_n1_5ov2ezMMrflzoU8N?input=https://hanhtinhtitanic.org/,"timed out, govt"
