@@ -105,15 +105,15 @@ ooni.tr_11,isp,cl.dns_isp_tr_turknet_chat_and_socialmedia,dns,full,193.192.98.46
 ooni.tr_12,isp,cl.dns_isp_tr_turknet_game_and_socialmedia,dns,full,193.192.98.47,5,TR,ooni,,Turkish ISP Turk Net optin family oriented DNS service (this is DIFFERENT than the Turk Telecom secureinternet)
 ooni.tr_13,isp,cl.dns_isp_tr_turknet_game_and_chat,dns,full,193.192.98.48,5,TR,ooni,,Turkish ISP Turk Net optin family oriented DNS service (this is DIFFERENT than the Turk Telecom secureinternet)
 ooni.tr_14,isp,cl.dns_isp_tr_turknet_game_chat_socialmedia,dns,full,193.192.98.49,5,TR,ooni,,Turkish ISP Turk Net optin family oriented DNS service (this is DIFFERENT than the Turk Telecom secureinternet)
-ooni.zz_4,prod,cl.dns_prod_cleanbrowsing_1,dns,full,185.228.168.254,5,",ZZ",ooni,https://explorer.ooni.org/measurement/20190824T132919Z_AS5650_gwWRIicciG8fgrTzTFnuvsmlAHFOWgiAIAuDeL9RgH05TQsY3L?input=http://www.samesexmarriage.ca/,Cleanbrowsing DNS content filter
-ooni.zz_5,prod,cl.dns_prod_cleanbrowsing_2,dns,full,207.246.127.171,5,",ZZ",ooni,,Cleanbrowsing DNS content filter
-ooni.zz_6,prod,cl.dns_prod_cleanbrowsing_3,dns,full,45.77.77.148,5,",ZZ",ooni,,Cleanbrowsing DNS content filter
-ooni.zz_7,prod,cl.dns_prod_flashstart,dns,full,185.236.104.104,5,",ZZ",ooni,https://explorer.ooni.org/measurement/20180212T093619Z_AS12874_ivZ63xkT6Tqmlz8SyoIsbdkQNfN85CyNZTO1ZVeYTZFRh24xb8?input=http://www.gayscape.com,Security focused DNS content filter
-ooni.zz_8,prod,cl.dns_prod_smartdns_proxy,dns,full,54.242.237.204,5,",ZZ",ooni,,A geoip avoidance/unblocking DNS service
-ooni.zz_9,prod,cl.dns_prod_cloudveil,dns,full,45.32.203.129,5,",ZZ",ooni,,"Faith focused DNS filtering system provided by the Church of God in Christ, Mennonite."
-ooni.zz_10,prod,cl.dns_prod_dnswatch_1,dns,full,3.93.224.57,5,",ZZ",ooni,,Security focused DNS filter provided by WatchGuard Technologies
-ooni.zz_11,prod,cl.dns_prod_dnswatch_2,dns,full,52.206.227.167,5,",ZZ",ooni,,Security focused DNS filter provided by WatchGuard Technologies
-ooni.zz_12,inst,cl.dns_prod_safedns,dns,full,195.46.39.11,5,",ZZ",ooni,https://explorer.ooni.org/measurement/20191115T114711Z_AS12390_NIVFbxg8nx3pPxL5vbk2Fg4duFANRINLyvIaMNuzyDPiMdY2X3?input=https://bisexual.org/,"SafeDNS filtering for home, edu, telecom. Cloud based filtering product."
+ooni.zz_4,prod,cl.dns_prod_cleanbrowsing_1,dns,full,185.228.168.254,5,"ZZ",ooni,https://explorer.ooni.org/measurement/20190824T132919Z_AS5650_gwWRIicciG8fgrTzTFnuvsmlAHFOWgiAIAuDeL9RgH05TQsY3L?input=http://www.samesexmarriage.ca/,Cleanbrowsing DNS content filter
+ooni.zz_5,prod,cl.dns_prod_cleanbrowsing_2,dns,full,207.246.127.171,5,"ZZ",ooni,,Cleanbrowsing DNS content filter
+ooni.zz_6,prod,cl.dns_prod_cleanbrowsing_3,dns,full,45.77.77.148,5,"ZZ",ooni,,Cleanbrowsing DNS content filter
+ooni.zz_7,prod,cl.dns_prod_flashstart,dns,full,185.236.104.104,5,"ZZ",ooni,https://explorer.ooni.org/measurement/20180212T093619Z_AS12874_ivZ63xkT6Tqmlz8SyoIsbdkQNfN85CyNZTO1ZVeYTZFRh24xb8?input=http://www.gayscape.com,Security focused DNS content filter
+ooni.zz_8,prod,cl.dns_prod_smartdns_proxy,dns,full,54.242.237.204,5,"ZZ",ooni,,A geoip avoidance/unblocking DNS service
+ooni.zz_9,prod,cl.dns_prod_cloudveil,dns,full,45.32.203.129,5,"ZZ",ooni,,"Faith focused DNS filtering system provided by the Church of God in Christ, Mennonite."
+ooni.zz_10,prod,cl.dns_prod_dnswatch_1,dns,full,3.93.224.57,5,"ZZ",ooni,,Security focused DNS filter provided by WatchGuard Technologies
+ooni.zz_11,prod,cl.dns_prod_dnswatch_2,dns,full,52.206.227.167,5,"ZZ",ooni,,Security focused DNS filter provided by WatchGuard Technologies
+ooni.zz_12,inst,cl.dns_prod_safedns,dns,full,195.46.39.11,5,"ZZ",ooni,https://explorer.ooni.org/measurement/20191115T114711Z_AS12390_NIVFbxg8nx3pPxL5vbk2Fg4duFANRINLyvIaMNuzyDPiMdY2X3?input=https://bisexual.org/,"SafeDNS filtering for home, edu, telecom. Cloud based filtering product."
 cl.dns_br_1234,vbw,,dns,full,1.2.3.4,10,,,https://explorer.ooni.org/measurement/20190612T013439Z_AS17974_XnyS9G0FWELa7uamYqu2zGxaYOQVrFFvlb9KmzbXlChVfY76uV?input=https://www.scruff.com/,"An A record with a 1.2.3.4 reply, this is a common false response to restrict access."
 cl.dns_br_allzero,vbw,,dns,full,0.0.0.0,10,,,https://explorer.ooni.org/measurement/20170214T000041Z_AS5769_GwfnRAZ0NLH0wT56sefg2xc2iB07m354tQ0dA6IIL8mRz1CTXZ?input=http://www.lesbian.org,"A 0.0.0.0 reply, by convention this is a standard way to block access to content with DNS servers"
 cl.dns_br_localhost,vbw,,dns,full,127.0.0.1,10,,,https://explorer.ooni.org/measurement/20160809T002715Z_AS4818_iyzGIP1lTXMuul1n2gqn5KveO8IEHWBprt04tul57KJS7mFutA?input=http://www.mygoodasyou.com,"A localhost reply, by convention this is a standard way to block access to content with DNS servers"
