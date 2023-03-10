@@ -1,0 +1,16 @@
+name: Validate CSV files
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: Validate CSV files
+    runs-on: ubuntu-latest
+    container: debian:11
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install deps
+        run: |
+          apt-get update
+          apt-get -y --no-install-recommends install python3
+      - name: Run validation
+        run: ./scripts/validate_csv.py
