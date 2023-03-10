@@ -314,15 +314,19 @@ def validate_row(pos, row, header) -> None:
         print(f"---\n{r}\n---")
         print("=== Validation failed ===")
         sys.exit(1)
+    return r["name"]
 
 
 def validate_csv(csv_path: Path):
+    fp_names = set()
     with csv_path.open() as in_file:
         reader = csv.reader(in_file)
         header = next(reader)
         for idx, row in enumerate(reader):
             pos = f"{csv_path}:{idx+1}"
-            validate_row(pos, row, header)
+            fp_name = validate_row(pos, row, header)
+            assert fp_name not in fp_names, f"{pos} Duplicate fingerprint name {fp_name}"
+            fp_names.add(fp_name)
 
 
 def main():
