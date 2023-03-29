@@ -157,7 +157,7 @@ ooni.mm_6,nat,,dns,full,103.105.174.6,10,MM,sinarproject,,blockpage_govt
 ooni.mm_7,prod,,dns,full,176.103.130.135,10,MM,sinarproject,,AdGuard parental restrictions
 ooni.id_dns_110,nat,,dns,full,103.88.170.170,10,ID,sinarproject,,blockpage_govt
 ooni.id_dns_111,isp,,dns,full,36.86.63.182,5,ID,sinarproject,https://explorer.ooni.org/measurement/20220408T222848Z_webconnectivity_ID_7713_n1_l7BLGtH8ZJTfNmWR?input=https%3A%2F%2Fdailystormer.name%2F,"timed out, local ISP"
-ooni.id_dns_112,vbw,,dns,full,10.10.30.76,5,ID,sinarproject,https://explorer.ooni.org/measurement/20220408T045343Z_webconnectivity_ID_38511_n1_QNyV4T7Lsu32TTyt?input=http%3A%2F%2Fwww.4chan.org%2F,"timed out, private IP"
+ooni.id_dns_112,inst,,dns,full,10.10.30.76,10,ID,sinarproject,https://explorer.ooni.org/measurement/20220408T045343Z_webconnectivity_ID_38511_n1_QNyV4T7Lsu32TTyt?input=http%3A%2F%2Fwww.4chan.org%2F,"timed out, private IP. The blockpage seems to be owned by some school in Indonesia"
 ooni.id_dns_113,nat,,dns,full,27.54.116.70,10,ID,sinarproject,,blockpage_govt
 ooni.id_dns_114,nat,,dns,full,103.94.168.168,10,ID,sinarproject,,blockpage_govt
 ooni.id_dns_115,nat,,dns,full,115.178.182.58,10,ID,sinarproject,,blockpage_govt
@@ -196,3 +196,4 @@ ooni.ru_dns_ert_4,nat,,dns,full,188.186.154.88,5,RU,,,
 ooni.ru_dns_sevensky_1,nat,,dns,full,81.200.2.238,5,RU,,,
 ooni.ru_dns_trk_1,nat,,dns,full,171.25.175.70,5,RU,,,
 ooni.ru_dns_macomnet_1,nat,,dns,full,195.128.72.3,5,RU,,,
+ooni.id_dns_hspnet,isp,,dns,full,43.225.64.187,5,ID,ooni,https://explorer.ooni.org/measurement/20230326T063516Z_webconnectivity_ID_58495_n1_zF3O4qZt3eXv95m5?input=http://pornhub.com,
