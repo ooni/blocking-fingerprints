@@ -197,3 +197,4 @@ ooni.ru_dns_sevensky_1,nat,,dns,full,81.200.2.238,5,RU,,,
 ooni.ru_dns_trk_1,nat,,dns,full,171.25.175.70,5,RU,,,
 ooni.ru_dns_macomnet_1,nat,,dns,full,195.128.72.3,5,RU,,,
 ooni.id_dns_hspnet,isp,,dns,full,43.225.64.187,5,ID,ooni,https://explorer.ooni.org/measurement/20230326T063516Z_webconnectivity_ID_58495_n1_zF3O4qZt3eXv95m5?input=http://pornhub.com,
+ooni.id_blokir_winet,isp,,dns,full,202.57.25.3,5,ID,,,"Blockpage from one of local Indonesian ISP called WINET"
