@@ -198,3 +198,10 @@ ooni.ru_dns_trk_1,nat,,dns,full,171.25.175.70,5,RU,,,
 ooni.ru_dns_macomnet_1,nat,,dns,full,195.128.72.3,5,RU,,,
 ooni.id_dns_hspnet,isp,,dns,full,43.225.64.187,5,ID,ooni,https://explorer.ooni.org/measurement/20230326T063516Z_webconnectivity_ID_58495_n1_zF3O4qZt3eXv95m5?input=http://pornhub.com,
 ooni.id_blokir_winet,isp,,dns,full,202.57.25.3,5,ID,,,"Blockpage from one of local Indonesian ISP called WINET"
+ooni.GB_dns_8,Isp,,dns,full,90.255.255.14,5,GB,Toward Automated DNS Tampering Detection Using Machine Learning,https://explorer.ooni.org/m/20230622072833.818029_GB_webconnectivity_081e40af9c7ea88a,"timed out, local ISP"
+ooni.CZ_dns_9,Isp,,dns,full,80.250.8.1,10,CZ,Toward Automated DNS Tampering Detection Using Machine Learning,https://explorer.ooni.org/m/20230225034122.911467_CZ_webconnectivity_1048f8fac7ac0b4a,
+ooni.IT_dns_10,Isp,,dns,full,83.224.65.79,5,IT,Toward Automated DNS Tampering Detection Using Machine Learning,https://explorer.ooni.org/m/20220720085843.047793_IT_webconnectivity_fc2fd533c99bbdaa,"timed out, local ISP"
+ooni.RU_dns_11,Nat,,dns,full,85.142.29.248,5,RU,Toward Automated DNS Tampering Detection Using Machine Learning,https://explorer.ooni.org/m/20230622134319.095922_RU_webconnectivity_bbf598788df4ea6f, timed out
+ooni.IN_dns_12,isp,,dns,full,13.127.247.216,5,IN,Toward Automated DNS Tampering Detection Using Machine Learning,https://explorer.ooni.org/m/20220529211245.387618_IN_webconnectivity_dc00bf76406c7b37,"timed out, local ISP"
+ooni.DE_dns_13,Nat,,dns,full,167.233.14.14,10,DE,Toward Automated DNS Tampering Detection Using Machine Learning,, govt copyright block page
+ooni.RU_dns_14,Isp,,dns,full,195.19.90.226,5,RU,Toward Automated DNS Tampering Detection Using Machine Learning,https://explorer.ooni.org/m/20220529010325.148346_IN_webconnectivity_43983d7aba3c4890 ,"timed out, local ISP"
