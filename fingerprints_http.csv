@@ -668,7 +668,7 @@ cp.c_isp_ru_tscrimea_2,isp,,body,contains,ttp://rknblock.tscrimea.ru,5,,censored
 cp.c_isp_ru_tscrimea_3_body,isp,,body,contains,http://rknblock.tscrimea.com,5,,censored planet,,
 cp.c_isp_ru_tscrimea_3_location,isp,,header.location,prefix,http://rknblock.tscrimea.com,5,,censored planet,,
 cp.c_isp_ru_novotelecom_2_body,isp,,body,contains,http://zapret.2090000.ru,5,,censored planet,,
-cp.c_isp_ru_taiget_body,isp,,body,contains,https://hold.taiget.ru/block?,5,,censored planet,,
+cp.c_isp_ru_taiget_body2,isp,,body,contains,https://hold.taiget.ru/block?,5,,censored planet,,
 cp.c_isp_ru_taiget_location,isp,,header.location,prefix,https://hold.taiget.ru/block?,5,,censored planet,,
 cp.c_isp_ru_divo_2_body,isp,,body,contains,https://www.divo.ru/,5,,censored planet,,
 cp.c_isp_ru_divo_2_location,isp,,header.location,prefix,https://www.divo.ru/,5,,censored planet,,
