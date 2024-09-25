@@ -105,15 +105,15 @@ ooni.tr_11,isp,cl.dns_isp_tr_turknet_chat_and_socialmedia,dns,full,193.192.98.46
 ooni.tr_12,isp,cl.dns_isp_tr_turknet_game_and_socialmedia,dns,full,193.192.98.47,5,TR,ooni,,Turkish ISP Turk Net optin family oriented DNS service (this is DIFFERENT than the Turk Telecom secureinternet)
 ooni.tr_13,isp,cl.dns_isp_tr_turknet_game_and_chat,dns,full,193.192.98.48,5,TR,ooni,,Turkish ISP Turk Net optin family oriented DNS service (this is DIFFERENT than the Turk Telecom secureinternet)
 ooni.tr_14,isp,cl.dns_isp_tr_turknet_game_chat_socialmedia,dns,full,193.192.98.49,5,TR,ooni,,Turkish ISP Turk Net optin family oriented DNS service (this is DIFFERENT than the Turk Telecom secureinternet)
-ooni.zz_4,prod,cl.dns_prod_cleanbrowsing_1,dns,full,185.228.168.254,5,",ZZ",ooni,https://explorer.ooni.org/measurement/20190824T132919Z_AS5650_gwWRIicciG8fgrTzTFnuvsmlAHFOWgiAIAuDeL9RgH05TQsY3L?input=http://www.samesexmarriage.ca/,Cleanbrowsing DNS content filter
-ooni.zz_5,prod,cl.dns_prod_cleanbrowsing_2,dns,full,207.246.127.171,5,",ZZ",ooni,,Cleanbrowsing DNS content filter
-ooni.zz_6,prod,cl.dns_prod_cleanbrowsing_3,dns,full,45.77.77.148,5,",ZZ",ooni,,Cleanbrowsing DNS content filter
-ooni.zz_7,prod,cl.dns_prod_flashstart,dns,full,185.236.104.104,5,",ZZ",ooni,https://explorer.ooni.org/measurement/20180212T093619Z_AS12874_ivZ63xkT6Tqmlz8SyoIsbdkQNfN85CyNZTO1ZVeYTZFRh24xb8?input=http://www.gayscape.com,Security focused DNS content filter
-ooni.zz_8,prod,cl.dns_prod_smartdns_proxy,dns,full,54.242.237.204,5,",ZZ",ooni,,A geoip avoidance/unblocking DNS service
-ooni.zz_9,prod,cl.dns_prod_cloudveil,dns,full,45.32.203.129,5,",ZZ",ooni,,"Faith focused DNS filtering system provided by the Church of God in Christ, Mennonite."
-ooni.zz_10,prod,cl.dns_prod_dnswatch_1,dns,full,3.93.224.57,5,",ZZ",ooni,,Security focused DNS filter provided by WatchGuard Technologies
-ooni.zz_11,prod,cl.dns_prod_dnswatch_2,dns,full,52.206.227.167,5,",ZZ",ooni,,Security focused DNS filter provided by WatchGuard Technologies
-ooni.zz_12,inst,cl.dns_prod_safedns,dns,full,195.46.39.11,5,",ZZ",ooni,https://explorer.ooni.org/measurement/20191115T114711Z_AS12390_NIVFbxg8nx3pPxL5vbk2Fg4duFANRINLyvIaMNuzyDPiMdY2X3?input=https://bisexual.org/,"SafeDNS filtering for home, edu, telecom. Cloud based filtering product."
+ooni.zz_4,prod,cl.dns_prod_cleanbrowsing_1,dns,full,185.228.168.254,5,ZZ,ooni,https://explorer.ooni.org/measurement/20190824T132919Z_AS5650_gwWRIicciG8fgrTzTFnuvsmlAHFOWgiAIAuDeL9RgH05TQsY3L?input=http://www.samesexmarriage.ca/,Cleanbrowsing DNS content filter
+ooni.zz_5,prod,cl.dns_prod_cleanbrowsing_2,dns,full,207.246.127.171,5,ZZ,ooni,,Cleanbrowsing DNS content filter
+ooni.zz_6,prod,cl.dns_prod_cleanbrowsing_3,dns,full,45.77.77.148,5,ZZ,ooni,,Cleanbrowsing DNS content filter
+ooni.zz_7,prod,cl.dns_prod_flashstart,dns,full,185.236.104.104,5,ZZ,ooni,https://explorer.ooni.org/measurement/20180212T093619Z_AS12874_ivZ63xkT6Tqmlz8SyoIsbdkQNfN85CyNZTO1ZVeYTZFRh24xb8?input=http://www.gayscape.com,Security focused DNS content filter
+ooni.zz_8,prod,cl.dns_prod_smartdns_proxy,dns,full,54.242.237.204,5,ZZ,ooni,,A geoip avoidance/unblocking DNS service
+ooni.zz_9,prod,cl.dns_prod_cloudveil,dns,full,45.32.203.129,5,ZZ,ooni,,"Faith focused DNS filtering system provided by the Church of God in Christ, Mennonite."
+ooni.zz_10,prod,cl.dns_prod_dnswatch_1,dns,full,3.93.224.57,5,ZZ,ooni,,Security focused DNS filter provided by WatchGuard Technologies
+ooni.zz_11,prod,cl.dns_prod_dnswatch_2,dns,full,52.206.227.167,5,ZZ,ooni,,Security focused DNS filter provided by WatchGuard Technologies
+ooni.zz_12,inst,cl.dns_prod_safedns,dns,full,195.46.39.11,5,ZZ,ooni,https://explorer.ooni.org/measurement/20191115T114711Z_AS12390_NIVFbxg8nx3pPxL5vbk2Fg4duFANRINLyvIaMNuzyDPiMdY2X3?input=https://bisexual.org/,"SafeDNS filtering for home, edu, telecom. Cloud based filtering product."
 cl.dns_br_1234,vbw,,dns,full,1.2.3.4,10,,,https://explorer.ooni.org/measurement/20190612T013439Z_AS17974_XnyS9G0FWELa7uamYqu2zGxaYOQVrFFvlb9KmzbXlChVfY76uV?input=https://www.scruff.com/,"An A record with a 1.2.3.4 reply, this is a common false response to restrict access."
 cl.dns_br_allzero,vbw,,dns,full,0.0.0.0,10,,,https://explorer.ooni.org/measurement/20170214T000041Z_AS5769_GwfnRAZ0NLH0wT56sefg2xc2iB07m354tQ0dA6IIL8mRz1CTXZ?input=http://www.lesbian.org,"A 0.0.0.0 reply, by convention this is a standard way to block access to content with DNS servers"
 cl.dns_br_localhost,vbw,,dns,full,127.0.0.1,10,,,https://explorer.ooni.org/measurement/20160809T002715Z_AS4818_iyzGIP1lTXMuul1n2gqn5KveO8IEHWBprt04tul57KJS7mFutA?input=http://www.mygoodasyou.com,"A localhost reply, by convention this is a standard way to block access to content with DNS servers"
@@ -157,7 +157,7 @@ ooni.mm_6,nat,,dns,full,103.105.174.6,10,MM,sinarproject,,blockpage_govt
 ooni.mm_7,prod,,dns,full,176.103.130.135,10,MM,sinarproject,,AdGuard parental restrictions
 ooni.id_dns_110,nat,,dns,full,103.88.170.170,10,ID,sinarproject,,blockpage_govt
 ooni.id_dns_111,isp,,dns,full,36.86.63.182,5,ID,sinarproject,https://explorer.ooni.org/measurement/20220408T222848Z_webconnectivity_ID_7713_n1_l7BLGtH8ZJTfNmWR?input=https%3A%2F%2Fdailystormer.name%2F,"timed out, local ISP"
-ooni.id_dns_112,vbw,,dns,full,10.10.30.76,5,ID,sinarproject,https://explorer.ooni.org/measurement/20220408T045343Z_webconnectivity_ID_38511_n1_QNyV4T7Lsu32TTyt?input=http%3A%2F%2Fwww.4chan.org%2F,"timed out, private IP"
+ooni.id_dns_112,inst,,dns,full,10.10.30.76,10,ID,sinarproject,https://explorer.ooni.org/measurement/20220408T045343Z_webconnectivity_ID_38511_n1_QNyV4T7Lsu32TTyt?input=http%3A%2F%2Fwww.4chan.org%2F,"timed out, private IP. The blockpage seems to be owned by some school in Indonesia"
 ooni.id_dns_113,nat,,dns,full,27.54.116.70,10,ID,sinarproject,,blockpage_govt
 ooni.id_dns_114,nat,,dns,full,103.94.168.168,10,ID,sinarproject,,blockpage_govt
 ooni.id_dns_115,nat,,dns,full,115.178.182.58,10,ID,sinarproject,,blockpage_govt
@@ -181,11 +181,35 @@ ooni.in_dns_7,isp,,dns,full,59.185.3.14,5,IN,sinarproject,https://explorer.ooni.
 ooni.in_dns_8,isp,,dns,full,202.83.21.15,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220114T023036Z_webconnectivity_IN_24309_n1_AHs2ako5D4Xu9w8N?input=https%3A%2F%2Fwww.weiyun.com%2F,"timed out, local ISP"
 ooni.in_dns_9,isp,,dns,full,202.83.24.75,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220216T151340Z_webconnectivity_IN_24309_n1_I3wQRGFxx6yRqvWA?input=https%3A%2F%2Ffunscrape.com%2F,"timed out, local ISP"
 ooni.in_dns_10,isp,,dns,full,218.248.112.60,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220606T113115Z_webconnectivity_IN_9829_n1_pkWnR4H5UrDGkcFo?input=http%3A%2F%2Fwww.parallel-app.com%2F,"timed out, local ISP"
-ooni.in_dns_11,vbw,,dns,full,10.40.124.12,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220417T011800Z_webconnectivity_IN_55824_n1_p2b2sLBjFMEjdfIn?input=https%3A%2F%2Findiansexstories.net%2F,"timed out, private IP"
-ooni.in_dns_12,vbw,,dns,full,10.40.124.13,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220418T041741Z_webconnectivity_IN_55824_n1_73HY9sL4HmAndyB9?input=https%3A%2F%2Feztv.re%2F,"timed out, private IP"
-ooni.in_dns_13,vbw,,dns,full,10.197.186.13,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220418T041741Z_webconnectivity_IN_55824_n1_73HY9sL4HmAndyB9?input=https%3A%2F%2Feztv.re%2F,"timed out, private IP"
-ooni.in_dns_14,vbw,,dns,full,10.197.187.13,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220418T041741Z_webconnectivity_IN_55824_n1_73HY9sL4HmAndyB9?input=https%3A%2F%2Feztv.re%2F,"timed out, private IP"
-ooni.in_dns_15,vbw,,dns,full,172.16.16.250,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220306T125418Z_webconnectivity_IN_17465_n1_tST2pngG5oTX7DYJ?input=https%3A%2F%2Fweibo.com%2F,"timed out, private IP"
+ooni.in_dns_11,isp,,dns,full,10.40.124.12,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220417T011800Z_webconnectivity_IN_55824_n1_p2b2sLBjFMEjdfIn?input=https%3A%2F%2Findiansexstories.net%2F,"timed out, private IP"
+ooni.in_dns_12,isp,,dns,full,10.40.124.13,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220418T041741Z_webconnectivity_IN_55824_n1_73HY9sL4HmAndyB9?input=https%3A%2F%2Feztv.re%2F,"timed out, private IP"
+ooni.in_dns_13,isp,,dns,full,10.197.186.13,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220418T041741Z_webconnectivity_IN_55824_n1_73HY9sL4HmAndyB9?input=https%3A%2F%2Feztv.re%2F,"timed out, private IP"
+ooni.in_dns_14,isp,,dns,full,10.197.187.13,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220418T041741Z_webconnectivity_IN_55824_n1_73HY9sL4HmAndyB9?input=https%3A%2F%2Feztv.re%2F,"timed out, private IP"
+ooni.in_dns_15,isp,,dns,full,172.16.16.250,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220306T125418Z_webconnectivity_IN_17465_n1_tST2pngG5oTX7DYJ?input=https%3A%2F%2Fweibo.com%2F,"timed out, private IP"
 ooni.th_10,isp,,dns,full,180.180.255.130,5,TH,sinarproject,https://explorer.ooni.org/measurement/20220126T103641Z_webconnectivity_TH_23969_n1_F58VT6pOoqU5ydfA?input=https%3A%2F%2Fwww.hidemyass.com%2F,"timed out, local ISP"
 ooni.vn_dns_1,isp,,dns,full,125.212.224.108,5,VN,sinarproject,https://explorer.ooni.org/measurement/20220131T161257Z_webconnectivity_VN_45899_n1_DvlRl6bSZrs40gzu?input=http://www.888casino.com/,"timed out, local ISP"
 ooni.vn_dns_2,nat,,dns,full,103.192.236.94,10,VN,sinarproject,https://explorer.ooni.org/measurement/20220305T052542Z_webconnectivity_VN_45899_n1_5ov2ezMMrflzoU8N?input=https://hanhtinhtitanic.org/,"timed out, govt"
+ooni.ru_dns_ert_1,nat,,dns,full,188.186.146.208,5,RU,,,
+ooni.ru_dns_ert_2,nat,,dns,full,188.186.154.79,5,RU,,,
+ooni.ru_dns_ert_3,nat,,dns,full,188.186.146.207,5,RU,,,
+ooni.ru_dns_ert_4,nat,,dns,full,188.186.154.88,5,RU,,,
+ooni.ru_dns_sevensky_1,nat,,dns,full,81.200.2.238,5,RU,,,
+ooni.ru_dns_trk_1,nat,,dns,full,171.25.175.70,5,RU,,,
+ooni.ru_dns_macomnet_1,nat,,dns,full,195.128.72.3,5,RU,,,
+ooni.id_dns_hspnet,isp,,dns,full,43.225.64.187,5,ID,ooni,https://explorer.ooni.org/measurement/20230326T063516Z_webconnectivity_ID_58495_n1_zF3O4qZt3eXv95m5?input=http://pornhub.com,
+ooni.id_blokir_winet,isp,,dns,full,202.57.25.3,5,ID,,,Blockpage from one of local Indonesian ISP called WINET
+ooni.id_dns_126,nat,,dns,full,202.89.117.64,10,ID,sinarproject,https://explorer.ooni.org/measurement/20230918T202606Z_webconnectivity_ID_131111_n1_xmCGjc4TN0rOS0wX?input=http://www.warungbebas.com/,block_page_govt
+ooni.in_dns_16,nat,,dns,full,202.164.51.25,10,IN,sinarproject,https://explorer.ooni.org/measurement/20231118T224935Z_webconnectivity_IN_17917_n1_eNd6z1qxp3xBGU4r?input=https://www.kwai.com/,block_page_govt
+ooni.in_dns_17,nat,,dns,full,123.176.40.68,10,IN,cis,,
+ooni.in_dns_18,nat,,dns,full,106.51.113.17,10,IN,cis,,
+ooni.in_dns_19,nat,,dns,full,123.176.40.69,10,IN,cis,,
+ooni.in_dns_20,nat,,dns,full,49.207.46.38,10,IN,cis,,
+ooni.in_dns_21,nat,,dns,full,123.176.40.67,10,IN,cis,,
+ooni.in_dns_22,nat,,dns,full,49.205.75.6,10,IN,cis,,
+ooni.id_dns_127,nat,,dns,full,103.189.63.245,10,ID,sinarproject,https://explorer.ooni.org/measurement/20240408122844.705891_ID_webconnectivity_fcc3eb440ecf6a92,blockpage_govt
+ooni.sg_dns_2,nat,,dns,full,52.223.25.91,10,SG,sinarproject,https://explorer.ooni.org/measurement/20240401T140332Z_webconnectivity_SG_55430_n1_oEr8jRvYn6pUc89o?input=http://statestimesreview.com/,blockpage_govt
+ooni.sg_dns_3,nat,,dns,full,35.71.144.125,10,SG,sinarproject,https://explorer.ooni.org/measurement/20240401T153410Z_webconnectivity_SG_9506_n1_RoIL0XRdoZoUyoC7?input=http://statestimesreview.com/,blockpage_govt
+ooni.sg_dns_4,nat,,dns,full,202.166.118.162,10,SG,sinarproject,https://explorer.ooni.org/measurement/20240402T194713Z_webconnectivity_SG_9506_n1_zkWNoCmQWmVNKDV4?input=http://123tvnow.com/,blockpage_govt
+ooni.sg_dns_5,nat,,dns,full,13.248.219.95,10,SG,sinarproject,https://explorer.ooni.org/measurement/20240409T220428Z_webconnectivity_SG_9506_n1_vBFoMNxDqFY2eoz7?input=https://22bets.me/,blockpage_govt
+ooni.sg_dns_6,nat,,dns,full,76.223.70.70,10,SG,sinarproject,https://explorer.ooni.org/measurement/20240409T220428Z_webconnectivity_SG_9506_n1_vBFoMNxDqFY2eoz7?input=https://eubetsg.com/,blockpage_govt
+ooni.sg_dns_7,nat,,dns,full,103.7.201.57,10,SG,sinarproject,https://explorer.ooni.org/measurement/20240414T064623Z_webconnectivity_SG_133136_n1_4OZQ0OsQSBql33mY?input=http://statestimesreview.com/,blockpage_govt
