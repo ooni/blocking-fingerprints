@@ -197,4 +197,19 @@ ooni.ru_dns_sevensky_1,nat,,dns,full,81.200.2.238,5,RU,,,
 ooni.ru_dns_trk_1,nat,,dns,full,171.25.175.70,5,RU,,,
 ooni.ru_dns_macomnet_1,nat,,dns,full,195.128.72.3,5,RU,,,
 ooni.id_dns_hspnet,isp,,dns,full,43.225.64.187,5,ID,ooni,https://explorer.ooni.org/measurement/20230326T063516Z_webconnectivity_ID_58495_n1_zF3O4qZt3eXv95m5?input=http://pornhub.com,
-ooni.id_blokir_winet,isp,,dns,full,202.57.25.3,5,ID,,,"Blockpage from one of local Indonesian ISP called WINET"
+ooni.id_blokir_winet,isp,,dns,full,202.57.25.3,5,ID,,,"Blockpage from one of local Indonesian ISP called WINET",
+ooni.id_dns_126,nat,,dns,full,202.89.117.64,10,ID,sinarproject,https://explorer.ooni.org/measurement/20230918T202606Z_webconnectivity_ID_131111_n1_xmCGjc4TN0rOS0wX?input=http://www.warungbebas.com/,block_page_govt
+ooni.in_dns_16,nat,,dns,full,202.164.51.25,10,IN,sinarproject,https://explorer.ooni.org/measurement/20231118T224935Z_webconnectivity_IN_17917_n1_eNd6z1qxp3xBGU4r?input=https://www.kwai.com/,block_page_govt
+ooni.in_dns_17,nat,,dns,full,123.176.40.68,10,IN,cis,,
+ooni.in_dns_18,nat,,dns,full,106.51.113.17,10,IN,cis,,
+ooni.in_dns_19,nat,,dns,full,123.176.40.69,10,IN,cis,,
+ooni.in_dns_20,nat,,dns,full,49.207.46.38,10,IN,cis,,
+ooni.in_dns_21,nat,,dns,full,123.176.40.67,10,IN,cis,,
+ooni.in_dns_22,nat,,dns,full,49.205.75.6,10,IN,cis,,
+ooni.id_dns_127,nat,,dns,full,103.189.63.245,10,ID,sinarproject,https://explorer.ooni.org/measurement/20240408122844.705891_ID_webconnectivity_fcc3eb440ecf6a92,blockpage_govt
+ooni.sg_dns_2,nat,,dns,full,52.223.25.91,10,SG,sinarproject,https://explorer.ooni.org/measurement/20240401T140332Z_webconnectivity_SG_55430_n1_oEr8jRvYn6pUc89o?input=http://statestimesreview.com/,blockpage_govt
+ooni.sg_dns_3,nat,,dns,full,35.71.144.125,10,SG,sinarproject,https://explorer.ooni.org/measurement/20240401T153410Z_webconnectivity_SG_9506_n1_RoIL0XRdoZoUyoC7?input=http://statestimesreview.com/,blockpage_govt
+ooni.sg_dns_4,nat,,dns,full,202.166.118.162,10,SG,sinarproject,https://explorer.ooni.org/measurement/20240402T194713Z_webconnectivity_SG_9506_n1_zkWNoCmQWmVNKDV4?input=http://123tvnow.com/,blockpage_govt
+ooni.sg_dns_5,nat,,dns,full,13.248.219.95,10,SG,sinarproject,https://explorer.ooni.org/measurement/20240409T220428Z_webconnectivity_SG_9506_n1_vBFoMNxDqFY2eoz7?input=https://22bets.me/,blockpage_govt
+ooni.sg_dns_6,nat,,dns,full,76.223.70.70,10,SG,sinarproject,https://explorer.ooni.org/measurement/20240409T220428Z_webconnectivity_SG_9506_n1_vBFoMNxDqFY2eoz7?input=https://eubetsg.com/,blockpage_govt
+ooni.sg_dns_7,nat,,dns,full,103.7.201.57,10,SG,sinarproject,https://explorer.ooni.org/measurement/20240414T064623Z_webconnectivity_SG_133136_n1_4OZQ0OsQSBql33mY?input=http://statestimesreview.com/,blockpage_govt
