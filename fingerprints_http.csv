@@ -475,7 +475,7 @@ cl.prod_netsweeper_inject_3,prod,,body,contains,&dpruleid=,6,,,https://explorer.
 cl.prod_opendns_block_2,prod,,body,contains,This domain is blocked due to content filtering.,8,,https://support.opendns.com/hc/en-us/community/posts/220047187-OpenDNS-suddenly-blocks-sites-after-a-few-days-of-use,https://explorer.ooni.org/measurement/20180401T092328Z_AS25019_Fwt7OWzgSX5bgt4fU2uwLnIfAlQrSkXHIrgk0NaMktVUkMsJCC?input=http://www.gayegypt.com,Matches default block page text for an OpenDNS blockpage. Lower fp value due to wording based pattern.
 cl.prod_paloaltonetworks_block,prod,,body,contains,Access to the web page you were trying to visit has been blocked in accordance with company policy.,8,,"https://knowledgebase.paloaltonetworks.com/KCSArticleDetail?id=kA10g000000ClXtCAK,https://knowledgebase.paloaltonetworks.com/KCSArticleDetail?id=kA10g000000ClsQCAS",https://explorer.ooni.org/measurement/20191104T140958Z_AS8551_3ClYxxNcVYkL21ReDyEXSXYWJzjZgVSGcpycmucSI1MIBq3uDp?input=http://gaytoday.com/,Palo Alto Networks default blockpage text - common filtering middlebox used in institutions
 cl.prod_paloaltonetworks_forward,prod,,header.location,contains,/php/urlblock.php?args=,10,,"https://knowledgebase.paloaltonetworks.com/KCSArticleDetail?id=kA10g000000ClXtCAK,https://knowledgebase.paloaltonetworks.com/KCSArticleDetail?id=kA10g000000ClsQCAS",https://explorer.ooni.org/measurement/20191104T185520Z_AS2381_aXMx8fZVBM5t27IvVAQGscDgnoJZyhesum6rKk2zqfj25oks4m?input=http://www.gay.com/,Palo Alto Networks typically forwards to url: http(s)://IP/php/urlblock.php?args=
-cl.prod_rmedufilter_blockpage,prod,cl.prod_vasexperts_blockpage_1,body,contains,www.rm.com/filteringpolicy/,10,"RU",https://www.rm.com/security-and-safeguarding/online-safety,https://explorer.ooni.org/measurement/20190924T111147Z_AS5503_tbltX9RU8fCAkZoJf6fhR3wC8TEukKjHbBm6pT54GZnYbFLTiL?input=http://www.glil.org/,RM is a consultancy that provides a filtering product for schools. This matches on the URL to re-categorize URls
+cl.prod_rmedufilter_blockpage,prod,cl.prod_vasexperts_blockpage_1,body,contains,www.rm.com/filteringpolicy/,10,RU,https://www.rm.com/security-and-safeguarding/online-safety,https://explorer.ooni.org/measurement/20190924T111147Z_AS5503_tbltX9RU8fCAkZoJf6fhR3wC8TEukKjHbBm6pT54GZnYbFLTiL?input=http://www.glil.org/,RM is a consultancy that provides a filtering product for schools. This matches on the URL to re-categorize URls
 cl.prod_rmedufilter_forward,prod,,header.location,contains,.ifl.net/filterpages/,10,,https://www.rm.com/security-and-safeguarding/online-safety,https://explorer.ooni.org/measurement/20190924T111147Z_AS5503_tbltX9RU8fCAkZoJf6fhR3wC8TEukKjHbBm6pT54GZnYbFLTiL?input=http://www.glil.org/,RM is a consultancy that provides a filtering product for schools. This matches on a forward in the headers that is done into their DNS space {X}.{Y}.ifl.net/filterpages/ when we saw it it looked like this: http://fp.sn.ifl.net/filterpages/3390-59870.htm#f=1&c=59870&d=1&p=3396&t=145722002&u=http://www.glil.org/&ip={ip}
 cl.prod_sonicwall_cfc,prod,,body,contains,://cfssupport.sonicwall.com,8,,https://www.sonicwall.com/products/firewalls/security-services/content-filtering-client/,https://explorer.ooni.org/measurement/20190530T060325Z_AS9930_aFIp6ijOM0HCyMp1Zo0BA01CHkisHlohZcn9WmB3R43ijK8LYt?input=http://www.gayrice.com/,Sonicwall Client Filter Blockpage
 cl.prod_squid_error_forward,prod,,header.location,contains,/sgerror.php?url=,10,,"http://www.squid-cache.org/Doc/config/err_page_stylesheet/,https://github.com/sullo/nikto/issues/603",https://explorer.ooni.org/measurement/20191014T112153Z_AS766_i7LuwpPrUtwgjjjCNCFwsnvNv8yih3PLXE7lvAF8MyDaSC4abw?input=https://bisexual.org/,"Squid is hard to write a pattern for, as it is a common reverse and in-path proxy. Cases where an inpath squid proxy returns errors is a clear case of inaccessible content that should be flagged however."
@@ -668,8 +668,8 @@ cp.c_isp_ru_tscrimea_2,isp,,body,contains,ttp://rknblock.tscrimea.ru,5,,censored
 cp.c_isp_ru_tscrimea_3_body,isp,,body,contains,http://rknblock.tscrimea.com,5,,censored planet,,
 cp.c_isp_ru_tscrimea_3_location,isp,,header.location,prefix,http://rknblock.tscrimea.com,5,,censored planet,,
 cp.c_isp_ru_novotelecom_2_body,isp,,body,contains,http://zapret.2090000.ru,5,,censored planet,,
-cp.c_isp_ru_taiget_body_2,isp,,body,contains,https://hold.taiget.ru/block?,5,,censored planet,,
-cp.c_isp_ru_taiget_location_2,isp,,header.location,prefix,https://hold.taiget.ru/block?,5,,censored planet,,
+cp.c_isp_ru_taiget_body2,isp,,body,contains,https://hold.taiget.ru/block?,5,,censored planet,,
+cp.c_isp_ru_taiget_location,isp,,header.location,prefix,https://hold.taiget.ru/block?,5,,censored planet,,
 cp.c_isp_ru_divo_2_body,isp,,body,contains,https://www.divo.ru/,5,,censored planet,,
 cp.c_isp_ru_divo_2_location,isp,,header.location,prefix,https://www.divo.ru/,5,,censored planet,,
 cp.c_isp_ru_iterika_2_body,isp,,body,contains,http://iterika.ru/blocked.html?,5,,censored planet,,
@@ -886,6 +886,7 @@ cp.e_unk_blk_6_location,nat,,header.location,prefix,http://213.14.227.50/landpag
 cp.e_unk_blk_8,nat,,body,contains,您正在访问恶意网页,5,,censored planet,,
 cp.e_unk_blk_9_body,nat,,body,contains,http://114.113.224.20:8123/feifa/code.htm,5,,censored planet,,
 cp.e_unk_blk_9_location,nat,,header.location,prefix,http://114.113.224.20:8123/feifa/code.htm,5,,censored planet,,
+cp.e_unk_blk_10,nat,,body,contains,/css/block.css,5,,censored planet,,
 cp.e_unk_blk_11,nat,,body,contains,禁止访问,5,,censored planet,,
 cp.e_unk_ip_url_block,nat,,body,contains,urlblock.php?args=,5,,censored planet,,
 cp.e_unk_cn_not_filed_1,nat,,body,contains,您好，该域名未备案，已被封停，请联系机房核实！！！！,5,,censored planet,,
@@ -902,10 +903,10 @@ cp.e_unk_tr_access,nat,,body,contains,sayfaya erişiminiz sağlanamamaktadır,5,
 cp.e_unk_id_blocked,nat,,body,contains,Anda di blokir!!!,5,,censored planet,,
 cp.e_unk_ru_roskomnadzor_2_body,nat,,body,contains,http://176.114.16.100/block_url.html,5,,censored planet,,
 cp.e_unk_ru_roskomnadzor_2_location,nat,,header.location,prefix,http://176.114.16.100/block_url.html,5,,censored planet,,
-cp.e_unk_id_blocked_2,nat,,body,contains,"Maaf, Situs Yang Anda Akses di Blokir",5,,censored planet,,
+cp.e_unk_id_blocked,nat,,body,contains,"Maaf, Situs Yang Anda Akses di Blokir",5,,censored planet,,
 cp.e_unk_ro_unauthorized,nat,,body,contains,<title>Acces neautorizat</title>,5,,censored planet,,
 cp.e_unk_cn_denied,nat,,body,contains,<title>拒绝访问</title>,5,,censored planet,,
-cp.e_unk_ru_blocked_1,nat,,body,contains,<h1>Данный ресурс заблокирован!</h1>,5,,censored planet,,
+cp.e_unk_ru_blocked,nat,,body,contains,<h1>Данный ресурс заблокирован!</h1>,5,,censored planet,,
 cp.e_unk_ru_restrict,nat,,body,contains,"иконуючи вимоги зазначеного Указу проводяться технічні заходи з обмеження надання послуг доступу до зазначених веб-ресурсів, відповідно з нашими технічними можливостями",5,,censored planet,,
 cp.e_unk_it_notice,nat,,body,contains,<h1>AVVISO</h1>,5,,censored planet,,
 cp.e_unk_filtered,nat,,body,contains,<title>Website Filtered</title>,5,,censored planet,,
@@ -1208,7 +1209,7 @@ cp.f_gen_site_blacklisted_satellite,vbw,,body,contains,<head><title>This domain 
 cp.f_gen_site_blocked_satellite,vbw,,body,contains,<title>Site Blocked</title>,5,,censored planet,,
 cp.f_gen_th_1_satellite,vbw,,body,contains,बन्देज लगाएको सामग्रीहरु,5,,censored planet,,
 cp.f_gen_website_blocked_2_satellite,vbw,,body,contains,<title>Website Blocked</title>,5,,censored planet,,
-cp.f_gen_access_denied_satellite_2,vbw,,body,contains,"<title>ACCESS DENIED</title>*src=""./block.png",5,,censored planet,,
+cp.f_gen_access_denied_satellite,vbw,,body,contains,"<title>ACCESS DENIED</title>*src=""./block.png",5,,censored planet,,
 cp.f_gen_website_blocked_satellite,vbw,,body,contains,<title>WEBSITE BLOCKED</title>,5,,censored planet,,
 cp.fp_x_fpru_amazon,fp,,body,contains,"copy; 2019, Amazon Web Services, Inc. or its affiliates. All rights reserved.",5,,censored planet,,
 cp.fp_x_fpru_nginx,fp,,body,contains,<p><em>Thank you for using nginx.</em></p>,5,,censored planet,,
@@ -1585,7 +1586,7 @@ cp.fp_x_document_moved,fp,,body,contains,<head><title>Document Moved</title></he
 cp.fp_x_moved_here,fp,,body,regexp,<p>The document has moved <a href=.*here</a>\.</p>,5,,censored planet,,
 cp.fp_x_azurecdn_body,fp,,body,contains,https://df.onecloud.azure-test.net/Error/UE_404,5,,censored planet,,
 cp.fp_x_azurecdn_location,fp,,header.location,prefix,https://df.onecloud.azure-test.net/Error/UE_404,5,,censored planet,,
-cp.fp_x_scientology_2,fp,,body,contains,"<a href=""https://www.scientology.org/"">Moved Permanently</a>",5,,censored planet,,
+cp.fp_x_scientology,fp,,body,contains,"<a href=""https://www.scientology.org/"">Moved Permanently</a>",5,,censored planet,,
 cp.fp_x_virtual_host,fp,,body,contains,Virtual host not configured,5,,censored planet,,
 cp.fp_x_greenpeace,fp,,body,contains,<html><body>Page moved permanently to (http|https)://www.greenpeace.org/usa/.</body></html>,5,,censored planet,,
 cp.fp_x_akamai_errorpage,fp,,body,contains,<!-- AKAMAI ERROR PAGE -->,5,,censored planet,,
@@ -1645,7 +1646,7 @@ cp.fp_satellite_fp_queernet,fp,,body,contains,<TITLE>QueerNet: Home Page</TITLE>
 cp.fp_satellite_fp_taobao_error,fp,,header.location,prefix,http://err.taobao.com/error1.html,5,,censored planet,,
 cp.fp_satellite_fp_wikimedia,fp,,body,contains,<title>Wikimedia Error</title>,5,,censored planet,,
 cp.fp_satellite_fp_wpx,fp,,body,contains,You have reached the default page at WPX Cloud instance chi01 <br />,5,,censored planet,,
-cp.fp_satellite_general1,fp,,body,contains,Your client does not have permission to get,5,,censored planet,,
+cp.fp_satellite_general2,fp,,body,contains,Your client does not have permission to get,5,,censored planet,,
 cp.fp_satellite_general2,fp,,body,contains,<h2>This is the default index page of your website.</h2>,5,,censored planet,,
 cp.fp_satellite_general3,fp,,body,contains,"<meta name=""description"" content=""The owner of this domain has not yet uploaded their website."" />",5,,censored planet,,
 cp.fp_satellite_general4,fp,,body,contains,<body><!-- default --></body>,5,,censored planet,,
@@ -1675,12 +1676,12 @@ cp.fp_satellite_fp_parked_domains,fp,,body,contains,a really cool domain parked 
 cp.fp_satellite_fp_dynamix_host,fp,,body,contains,<title>Dynamix Host</title>,5,,censored planet,,
 cp.fp_satellite_fp_site_default,fp,,body,contains,<title>Web Server's Default Page</title>,5,,censored planet,,
 cp.fp_satellite_fp_welcome_tor_2,fp,,body,contains,<TITLE>Welcome to polyanthum!</TITLE>,5,,censored planet,,
-cp.fp_satellite_fp_no_site_found_1,fp,,body,contains,<TITLE>ERROR: No web site here</TITLE>,5,,censored planet,,
+cp.fp_satellite_fp_no_site_found,fp,,body,contains,<TITLE>ERROR: No web site here</TITLE>,5,,censored planet,,
 cp.fp_satellite_fp_maintenace_wartaekonomi,fp,,body,contains,<title>Wartaekonomi - Maintenance Landing Page</title>,5,,censored planet,,
 cp.fp_satellite_fp_microsoft_internet_service,fp,,body,contains,<title>Microsoft Internet Information Services,5,,censored planet,,
 cp.fp_satellite_fp_domain_expired,fp,,body,contains,<title>Home - domain expired</title>,5,,censored planet,,
 cp.fp_satellite_fp_back_ve,fp,,body,contains,<title>Banco de Venezuela</title>,5,,censored planet,,
-cp.fp_satellite_fp_502_2,fp,,body,contains,"""status"":502,""message"":""No route known for",5,,censored planet,,
+cp.fp_satellite_fp_502,fp,,body,contains,"""status"":502,""message"":""No route known for",5,,censored planet,,
 cp.fp_satellite_fp_vhost_404,fp,,body,contains,<title>404 Vhost unknown.</title>,5,,censored planet,,
 cp.fp_satellite_fp_no_such_app,fp,,body,contains,<title>No such app</title>,5,,censored planet,,
 cp.fp_satellite_fp_dummy_uk,fp,,header.location,prefix,http://dummy.co.uk,5,,censored planet,,
@@ -1709,7 +1710,7 @@ ooni.id_lamanlabuh_kominfo,nat,,header.location,prefix,http://lamanlabuh.aduanko
 ooni.id_xl_3,isp,,body,contains,https://blockpage.xlaxiata.id,10,ID,ooni,https://explorer.ooni.org/measurement/20221205T021826Z_webconnectivity_ID_24203_n1_3ukcpAstQceKmaQ7?input=http%3A%2F%2Ftrulyislam.blogspot.com%2F,
 ooni.in_5,inst,,body,contains,<title>Web Site Blocked</title>,10,IN,sinarproject,https://explorer.ooni.org/measurement/20220422T013112Z_webconnectivity_IN_55824_n1_CYbx6ekcRjvYjukV?input=http%3A%2F%2Fxanga.com%2F,
 ooni.in_6,prod,,body,contains,<title>Please Wait... | Cloudflare</title>,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220311T063658Z_webconnectivity_IN_45609_n1_dkjwo66aoB3ODo7p?input=https%3A%2F%2Fwww.bjp.org%2F,
-ooni.in_7,nat,,body,contains,<span>The URL has been blocked as per the instructions of the DoT in compliance to the orders of Court of Law</span>,10,IN,sinarproject,https://explorer.ooni.org/measurement/20220411T125618Z_webconnectivity_IN_58678_n1_6zLG8ySiJHIq07Un?input=http%3A%2F%2Finfluence.in%2F,
+ooni.in_7,nat,,body,contains,<span>The URL has been blocked as per the instructions of the DoT in compliance to the orders of Court of Law</span>  ,10,IN,sinarproject,https://explorer.ooni.org/measurement/20220411T125618Z_webconnectivity_IN_58678_n1_6zLG8ySiJHIq07Un?input=http%3A%2F%2Finfluence.in%2F,
 ooni.in_8,inst,,body,contains,<title>Connection Not Allowed</title>,5,IN,sinarproject,https://explorer.ooni.org/measurement/20220418T011856Z_webconnectivity_IN_55824_n1_TIx5TMqHoNP2jOXH?input=http%3A%2F%2F8thstreetlatinas.com%2F,
 ooni.in_9,inst,,body,contains,<title>Blocked site</title>,10,IN,sinarproject,https://explorer.ooni.org/measurement/20220426T015224Z_webconnectivity_IN_9583_n1_QSh7YmMq4IdR87Xy?input=http%3A%2F%2Fwww.jewwatch.com%2F,
 ooni.in_10,inst,,body,contains,<title>Web Page Blocked</title>,10,IN,sinarproject,https://explorer.ooni.org/measurement/20220421T071835Z_webconnectivity_IN_16509_n1_mY0NBo6wTSp5lHdp?input=http%3A%2F%2Fwww.appzplanet.com%2F,
@@ -1718,19 +1719,22 @@ ooni.in_12,prod,,body,contains,<title>Web Filter Violation</title>,10,IN,sinarpr
 ooni.th_9,nat,,body,contains,<title>Tcsd.info</title>,10,TH,sinarproject,https://explorer.ooni.org/measurement/20220408T085807Z_webconnectivity_TH_132061_n1_1dHoWEHzenxzA5pP?input=http%3A%2F%2Fweareallhuman2.info%2F,
 ooni.th_10,vbw,,body,contains,<HTML></HTML>,5,TH,sinarproject,https://explorer.ooni.org/measurement/20220130T133710Z_webconnectivity_TH_45758_n1_AbTZrLWKG8yaJKfN?input=http%3A%2F%2Fwww.bbc.com%2Fnews%2Fworld-51235105,
 ooni.th_11,inst,,body,contains,"<h1>Web Page Blocked</h1>
-<p>The web page you are trying to visit has been blocked in accordance with company policy. Please contact your system administrator if you believe this is an error.</p>",10,TH,sinarproject,https://explorer.ooni.org/measurement/20220425T041106Z_webconnectivity_TH_137850_n1_vtA5rvaceV7ooE0f?input=http%3A%2F%2F66.111.2.131%3A9030%2Ftor%2Fserver%2Fauthority,
-ooni.th_12,inst,,body,contains,"<h1>Application Blocked</h1> 
-<div class=""response""> 
-<p>The application you are trying to use has been blocked in accordance with company policy. Please contact your system administrator if you believe this is an error.</p>",10,TH,sinarproject,https://explorer.ooni.org/measurement/20220511T102643Z_webconnectivity_TH_137850_n1_d8w6m3XRuM3WNJMO?input=http%3A%2F%2Fwww.javjunkies.com%2F ,
+    <p>The web page you are trying to visit has been blocked in accordance with company policy. Please contact your system administrator if you believe this is an error.</p>",10,TH,sinarproject,https://explorer.ooni.org/measurement/20220425T041106Z_webconnectivity_TH_137850_n1_vtA5rvaceV7ooE0f?input=http%3A%2F%2F66.111.2.131%3A9030%2Ftor%2Fserver%2Fauthority,
+ooni.th_12,inst,,body,contains,"<h1>Application Blocked</h1>
+    <div class=""response"">
+        <p>The application you are trying to use has been blocked in accordance with company policy. Please contact your system administrator if you believe this is an error.</p>",10,TH,sinarproject,https://explorer.ooni.org/measurement/20220511T102643Z_webconnectivity_TH_137850_n1_d8w6m3XRuM3WNJMO?input=http%3A%2F%2Fwww.javjunkies.com%2F ,
 ooni.th_13,inst,,body,contains,"<h3>Web Page Blocked!</h3>
 <div class=""notice"">
-<p>You have tried to access a web page which is in violation of your internet usage policy.</p>",10,TH,sinarproject,https://explorer.ooni.org/measurement/20220404T123046Z_webconnectivity_TH_7470_n1_AqWFFv6oEpzn5NXC?input=http%3A%2F%2Fwww.clubdicecasino.com%2F,
+    <p>You have tried to access a web page which is in violation of your internet usage policy.</p>",10,TH,sinarproject,https://explorer.ooni.org/measurement/20220404T123046Z_webconnectivity_TH_7470_n1_AqWFFv6oEpzn5NXC?input=http%3A%2F%2Fwww.clubdicecasino.com%2F,
 ooni.th_14,vbw,,body,contains,<title>Traccar</title>,5,TH,sinarproject,https://explorer.ooni.org/measurement/20220509T211322Z_webconnectivity_TH_45629_n1_QHXmIfXYhtCyxsoL?input=http%3A%2F%2Fwww.postcards-for-iran.org%2F,
 ooni.vn_http_1,isp,,body,contains,"<header><title>404 Page</title></header>
 <body>
 <font size=""6""><b>We're sorry but the page you're looking for could not be found!!!!!</b></font>",8,VN,sinarproject,https://explorer.ooni.org/measurement/20220622T090719Z_webconnectivity_VN_7552_n1_CxwTGyhN9nMW0Dsa?input=http%3A%2F%2Fendtorturevn.org%2F,Highly likely a ISP/national block as websites categorised as HUMR show these responses
 ooni.id_39,prod,,body,contains,<title>Please Wait... | Cloudflare</title>,5,ID,sinarproject,https://explorer.ooni.org/measurement/20220408T044604Z_webconnectivity_ID_7713_n1_aYncTjnSoJzT6qq6?input=https%3A%2F%2Fwww.coinbase.com%2F,
 ooni.mm_http_2,prod,,body,contains,<title>Please Wait... | Cloudflare</title>,5,MM,sinarproject,https://explorer.ooni.org/measurement/20220408T193109Z_webconnectivity_MM_136442_n1_CaQubW28puuK1ilG?input=https%3A%2F%2Fwww.clintonfoundation.org%2F,
-ooni.kh_http_1,prod,,body,contains,"<title>ERROR: Forbidden</title></head> 
+ooni.kh_http_1,prod,,body,contains,"<title>ERROR: Forbidden</title></head>
 <body><h2>ERROR: Forbidden</h2>",5,KH,sinarproject,https://explorer.ooni.org/measurement/20220224T094522Z_webconnectivity_KH_23673_n1_e5yYOgzvoVeMC7GD?input=http%3A%2F%2Fwww.utorrent.com%2F,
 ooni.hk_http_1,vbw,,body,contains,"<title>One moment, please...</title>",5,HK,sinarproject,https://explorer.ooni.org/measurement/20220524T172659Z_webconnectivity_HK_141677_n1_t7dQqq5WexfdfgxQ?input=https%3A%2F%2Fwww.tgr.org.hk%2Findex.php%2Fzh%2F,
+ooni.id_kominfo,nat,,body,contains,aduankonten@kominfo.go.id,10,ID,sinarproject,https://explorer.ooni.org/measurement/20240328T115128Z_webconnectivity_ID_138089_n1_PQrqL6BfAmnkDwiu?input=http://infopapua.org/,
+ooni.th_mdes,nat,,body,contains,mdes.jpg,10,TH,sinarproject,https://explorer.ooni.org/measurement/20230913T182925Z_webconnectivity_TH_17552_n1_oyj46PvHHphoEy0N?input=http://en.wikipedia.org/wiki/Bhumibol_Adulyadej,
+ooni.in_airtel,nat,,body,contains,http://www.airtel.in/court-orders/,10,IN,sinarproject,https://explorer.ooni.org/m/20240401004715.467243_IN_webconnectivity_b94ac34767a8e129,
