@@ -1736,4 +1736,4 @@ ooni.kh_http_1,prod,,body,contains,"<title>ERROR: Forbidden</title></head>
 ooni.hk_http_1,vbw,,body,contains,"<title>One moment, please...</title>",5,HK,sinarproject,https://explorer.ooni.org/measurement/20220524T172659Z_webconnectivity_HK_141677_n1_t7dQqq5WexfdfgxQ?input=https%3A%2F%2Fwww.tgr.org.hk%2Findex.php%2Fzh%2F,
 ooni.id_kominfo,nat,,body,contains,aduankonten@kominfo.go.id,10,ID,sinarproject,https://explorer.ooni.org/measurement/20240328T115128Z_webconnectivity_ID_138089_n1_PQrqL6BfAmnkDwiu?input=http://infopapua.org/,
 ooni.th_mdes,nat,,body,contains,mdes.jpg,10,TH,sinarproject,https://explorer.ooni.org/measurement/20230913T182925Z_webconnectivity_TH_17552_n1_oyj46PvHHphoEy0N?input=http://en.wikipedia.org/wiki/Bhumibol_Adulyadej,
-ooni.in_airtel,nat,,body,contains,http://www.airtel.in/court-orders/,10,IN,sinarproject,https://explorer.ooni.org/m/20240401004715.467243_IN_webconnectivity_b94ac34767a8e129
+ooni.in_airtel,nat,,body,contains,http://www.airtel.in/court-orders/,10,IN,sinarproject,https://explorer.ooni.org/m/20240401004715.467243_IN_webconnectivity_b94ac34767a8e129,
