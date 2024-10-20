@@ -198,3 +198,14 @@ ooni.ru_dns_trk_1,nat,,dns,full,171.25.175.70,5,RU,,,
 ooni.ru_dns_macomnet_1,nat,,dns,full,195.128.72.3,5,RU,,,
 ooni.id_dns_hspnet,isp,,dns,full,43.225.64.187,5,ID,ooni,https://explorer.ooni.org/measurement/20230326T063516Z_webconnectivity_ID_58495_n1_zF3O4qZt3eXv95m5?input=http://pornhub.com,
 ooni.id_blokir_winet,isp,,dns,full,202.57.25.3,5,ID,,,"Blockpage from one of local Indonesian ISP called WINET"
+ooni.us_dns_1,prod,,dns,full,94.140.14.35,10,US,Toward Automated DNS Tampering Detection Using Machine Learning,https://explorer.ooni.org/m/20230808090852.945856_US_webconnectivity_2a1b8ec349ff32f1,"AdGuard parental restrictions"
+ooni.ca_dns_1,prod,,dns,full,94.140.14.35,10,CA,Toward Automated DNS Tampering Detection Using Machine Learning,https://explorer.ooni.org/m/20220928203144.528391_CA_webconnectivity_83e4292f64106497,"AdGuard parental restrictions"
+ooni.cz_dns_1,isp,,dns,full,78.128.216.33,10,CZ,Toward Automated DNS Tampering Detection Using Machine Learning,https://explorer.ooni.org/m/20220828215302.037611_CZ_webconnectivity_c1ba6d6f1a1d0929,"Czech gambling blocking"
+ooni.cz_dns_2,isp,,dns,full,80.250.8.1,10,CZ,Toward Automated DNS Tampering Detection Using Machine Learning,https://explorer.ooni.org/m/20230225034122.911467_CZ_webconnectivity_1048f8fac7ac0b4a,"Czech gambling blocking"
+ooni.ru_dns_1,isp,,dns,full,95.167.13.50,10,RU,Toward Automated DNS Tampering Detection Using Machine Learning,,"RU ISP PJSC Rostelecom blockpage"
+ooni.ru_dns_2,isp,,dns,full,95.167.13.51,10,RU,Toward Automated DNS Tampering Detection Using Machine Learning,,"RU ISP PJSC Rostelecom blockpage"
+ooni.ru_dns_3,isp,,dns,full,188.19.132.154,5,RU,Toward Automated DNS Tampering Detection Using Machine Learning,https://explorer.ooni.org/m/20221008234012.634931_RU_webconnectivity_4017d7c6afa4e5cd,"timed out, PJSC Rostelecom"
+ooni.ru_dns_4,isp,,dns,full,188.19.132.155,5,RU,Toward Automated DNS Tampering Detection Using Machine Learning,https://explorer.ooni.org/m/20220316164446.392677_RU_webconnectivity_83ddf4bafb1ffb64,"timed out, PJSC Rostelecom "
+ooni.ru_dns_5,isp,,dns,full,85.142.29.248,5,RU,Toward Automated DNS Tampering Detection Using Machine Learning,https://explorer.ooni.org/m/20230622134319.095922_RU_webconnectivity_bbf598788df4ea6f,"timed out, local ISP"
+ooni.gb_dns_1,isp,,dns,full,90.255.255.14,5,GB,Toward Automated DNS Tampering Detection Using Machine Learning,https://explorer.ooni.org/m/20230622072833.818029_GB_webconnectivity_081e40af9c7ea88a,"timed out, local ISP"
+ooni.de_dns_13,nat,,dns,full,167.233.14.14,10,DE,Toward Automated DNS Tampering Detection Using Machine Learning,,"govt copyright blockpage https://notice.cuii.info"
