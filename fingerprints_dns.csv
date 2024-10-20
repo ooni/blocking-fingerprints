@@ -198,6 +198,7 @@ ooni.ru_dns_trk_1,nat,,dns,full,171.25.175.70,5,RU,,,
 ooni.ru_dns_macomnet_1,nat,,dns,full,195.128.72.3,5,RU,,,
 ooni.id_dns_hspnet,isp,,dns,full,43.225.64.187,5,ID,ooni,https://explorer.ooni.org/measurement/20230326T063516Z_webconnectivity_ID_58495_n1_zF3O4qZt3eXv95m5?input=http://pornhub.com,
 ooni.id_blokir_winet,isp,,dns,full,202.57.25.3,5,ID,,,"Blockpage from one of local Indonesian ISP called WINET"
+ooni.id_biznet_ipv6,isp,cl.dns_isp_id_sehat_biznet_ipv6,dns,full,2404:8000:11:2::2,5,ID,ooni,https://explorer.ooni.org/m/20230912091725.582644_ID_webconnectivity_d4d55857b664e41f,Indonesian ISP Biznet blockpage on IPv6
 ooni.it_piracy_shield,nat,,dns,full,34.110.214.49,5,IT,,,"Italy Piracy Shield blockpage"
 ooni.id_dns_126,nat,,dns,full,202.89.117.64,10,ID,sinarproject,https://explorer.ooni.org/measurement/20230918T202606Z_webconnectivity_ID_131111_n1_xmCGjc4TN0rOS0wX?input=http://www.warungbebas.com/,block_page_govt
 ooni.in_dns_16,nat,,dns,full,202.164.51.25,10,IN,sinarproject,https://explorer.ooni.org/measurement/20231118T224935Z_webconnectivity_IN_17917_n1_eNd6z1qxp3xBGU4r?input=https://www.kwai.com/,block_page_govt
