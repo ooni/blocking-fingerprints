@@ -196,12 +196,12 @@ ooni.id_blokir_winet,isp,,dns,full,202.57.25.3,5,ID,,,"Blockpage from one of loc
 ooni.it_piracy_shield,nat,,dns,full,34.110.214.49,5,IT,,,"Italy Piracy Shield blockpage"
 ooni.id_dns_126,nat,,dns,full,202.89.117.64,10,ID,sinarproject,https://explorer.ooni.org/measurement/20230918T202606Z_webconnectivity_ID_131111_n1_xmCGjc4TN0rOS0wX?input=http://www.warungbebas.com/,block_page_govt
 ooni.id_dns_127,nat,,dns,full,103.189.63.245,10,ID,sinarproject,https://explorer.ooni.org/measurement/20240408122844.705891_ID_webconnectivity_fcc3eb440ecf6a92,blockpage_govt
-ooni.id_dns_128,nat,,dns,full,103.173.230.24,10,ID,,
-ooni.id_dns_129,nat,,dns,full,103.181.142.196,10,ID,,
-ooni.id_dns_130,nat,,dns,full,103.173.75.28,10,ID,,
-ooni.id_dns_131,nat,,dns,full,103.151.222.227,10,ID,,
-ooni.id_dns_132,nat,,dns,full,103.155.197.107,10,ID,,
-ooni.id_dns_133,nat,,dns,full,103.157.116.4,10,ID,,
+ooni.id_dns_128,nat,,dns,full,103.173.230.24,10,ID,,,
+ooni.id_dns_129,nat,,dns,full,103.181.142.196,10,ID,,,
+ooni.id_dns_130,nat,,dns,full,103.173.75.28,10,ID,,,
+ooni.id_dns_131,nat,,dns,full,103.151.222.227,10,ID,,,
+ooni.id_dns_132,nat,,dns,full,103.155.197.107,10,ID,,,
+ooni.id_dns_133,nat,,dns,full,103.157.116.4,10,ID,,,
 ooni.in_dns_16,nat,,dns,full,202.164.51.25,10,IN,sinarproject,https://explorer.ooni.org/measurement/20231118T224935Z_webconnectivity_IN_17917_n1_eNd6z1qxp3xBGU4r?input=https://www.kwai.com/,block_page_govt
 ooni.in_dns_17,nat,,dns,full,123.176.40.68,10,IN,cis,,
 ooni.in_dns_18,nat,,dns,full,106.51.113.17,10,IN,cis,,
