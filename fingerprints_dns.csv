@@ -226,3 +226,4 @@ ooni.ru_dns_4,isp,,dns,full,188.19.132.155,5,RU,Toward Automated DNS Tampering D
 ooni.ru_dns_5,isp,,dns,full,85.142.29.248,5,RU,Toward Automated DNS Tampering Detection Using Machine Learning,https://explorer.ooni.org/m/20230622134319.095922_RU_webconnectivity_bbf598788df4ea6f,"timed out, local ISP"
 ooni.gb_dns_1,isp,,dns,full,90.255.255.14,5,GB,Toward Automated DNS Tampering Detection Using Machine Learning,https://explorer.ooni.org/m/20230622072833.818029_GB_webconnectivity_081e40af9c7ea88a,"timed out, local ISP"
 ooni.de_dns_13,nat,,dns,full,167.233.14.14,10,DE,Toward Automated DNS Tampering Detection Using Machine Learning,,"govt copyright blockpage https://notice.cuii.info"
+ooni.id_dns_134,nat,,dns,full,103.145.125.18,10,ID,,https://explorer.ooni.org/m/20250529030221.945409_ID_webconnectivity_d202f948c5945936,blockpage_govt
